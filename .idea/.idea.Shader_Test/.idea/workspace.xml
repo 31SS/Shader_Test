@@ -5,22 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.13/Bottle.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.13/Unlit.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.13/Unlit.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.14/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.14/Materials/high_touch_man_woman.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.14/Materials/high_touch_man_woman.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.14/culloff.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.14/culloff.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.14/high_touch_man_woman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.14/high_touch_man_woman.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -118,7 +103,7 @@
       <workItem from="1622538840294" duration="1246000" />
       <workItem from="1622547920428" duration="3810000" />
       <workItem from="1622985934178" duration="8805000" />
-      <workItem from="1623654875506" duration="6904000" />
+      <workItem from="1623654875506" duration="7144000" />
     </task>
     <servers />
   </component>
