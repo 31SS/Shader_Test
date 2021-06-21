@@ -5,7 +5,86 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="" />
+    <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/GameObject.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/GameObject.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/MatCap.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/MatCap.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/camera_rot.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/camera_rot.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/grid.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/grid.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/grid_01.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/grid_01.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/Mon_00.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/Mon_00.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/Mon_00.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/Mon_00.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_attack01.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_attack01.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_damage.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_damage.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_walk.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_walk.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/fbx/box.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/fbx/box.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/fbx/mon00_idle.FBX" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/fbx/mon00_idle.FBX.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/mon_body.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/mon_body.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/mon_body02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/mon_body02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/smoke_01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/smoke_01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/smoke_02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/smoke_02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx01.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx01.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx02.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx02.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx03.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx03.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx04.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx04.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/MatCap_bomb.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/MatCap_bomb.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/bomb_body.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/bomb_body.tif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/bomb_body02.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/bomb_body02.tif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/bomb_body_normal.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/bomb_body_normal.tif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_01.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_01.tif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_02.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_02.tif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_03.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_04.tif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_04.tif.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/spark_fx01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/spark_fx01.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/spark_fx02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/spark_fx02.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/scenes.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/scenes/3D_Monster_free.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/scenes/3D_Monster_free.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.16/VertexColor.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.16/VertexColor.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.16/VertexColor.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.16/VertexColor.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +117,8 @@
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.13/Unlit Shader.shader" />
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.13/Bottle.shader" />
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.14/culloff.shader" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.15/Toon.shader" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.16/VertexColor.shader" />
       </list>
     </option>
   </component>
@@ -104,6 +185,7 @@
       <workItem from="1622547920428" duration="3810000" />
       <workItem from="1622985934178" duration="8805000" />
       <workItem from="1623654875506" duration="7144000" />
+      <workItem from="1624290997659" duration="1764000" />
     </task>
     <servers />
   </component>
@@ -122,6 +204,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

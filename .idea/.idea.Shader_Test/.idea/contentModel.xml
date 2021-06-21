@@ -10,6 +10,11 @@
           <e p="Crystal Shader.shader" t="Include" />
           <e p="LICENSE.txt" t="Include" />
         </e>
+        <e p="JKT_ART" t="Include">
+          <e p="etc" t="Include">
+            <e p="MatCap.shader" t="Include" />
+          </e>
+        </e>
         <e p="Shader" t="Include">
           <e p="My Shader.shader" t="Include" />
         </e>
@@ -42,6 +47,12 @@
           </e>
           <e p="No.14" t="Include">
             <e p="culloff.shader" t="Include" />
+          </e>
+          <e p="No.15" t="Include">
+            <e p="Toon.shader" t="Include" />
+          </e>
+          <e p="No.16" t="Include">
+            <e p="VertexColor.shader" t="Include" />
           </e>
           <e p="No.2" t="Include">
             <e p="sample.shader" t="Include" />
