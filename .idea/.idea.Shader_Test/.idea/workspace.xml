@@ -6,84 +6,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/GameObject.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/GameObject.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/MatCap.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/MatCap.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/camera_rot.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/camera_rot.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/grid.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/grid.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/grid_01.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/etc/grid_01.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/Mon_00.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/Mon_00.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/Mon_00.controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/Mon_00.controller.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_attack01.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_attack01.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_damage.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_damage.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_idle.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_idle.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_walk.anim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/ani/mon00_walk.anim.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/fbx.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/fbx/box.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/fbx/box.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/fbx/mon00_idle.FBX" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/fbx/mon00_idle.FBX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/mon_body.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/mon_body.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/mon_body02.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/mon_body02.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/smoke_01.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/smoke_01.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/smoke_02.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/smoke_02.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx01.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx01.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx02.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx02.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx03.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx03.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx04.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/materials/spark_fx04.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/MatCap_bomb.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/MatCap_bomb.psd.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/bomb_body.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/bomb_body.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/bomb_body02.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/bomb_body02.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/bomb_body_normal.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/bomb_body_normal.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_01.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_01.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_02.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_02.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_03.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_04.tif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/smoke_04.tif.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/spark_fx01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/spark_fx01.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/spark_fx02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/mon_00/textures/spark_fx02.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/scenes.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/scenes/3D_Monster_free.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/JKT_ART/scenes/3D_Monster_free.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.16/VertexColor.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.16/VertexColor.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.16/VertexColor.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.16/VertexColor.shader.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17/Flag.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17/Flag.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17/Materials/宝くじ.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17/Materials/宝くじ.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17/宝くじ.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17/宝くじ.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/Dissolve.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/Dissolve.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/Dissolve.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/Dissolve.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/Materials/地紋幾何学模様.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/Materials/地紋幾何学模様.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/地紋幾何学模様.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/地紋幾何学模様.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/白黒三角形幾何学模様テクスチャ.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/白黒三角形幾何学模様テクスチャ.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,34 +41,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/Crystal Shader/Crystal Shader.shader" />
-        <option value="$PROJECT_DIR$/Assets/Shader/My Shader.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.1/sample.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/ShaderBasics/No.3/ShaderController.cs" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/ShaderBasics/No.2/sample.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.4/sample.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.5/sample.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.6/sample.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.7/sample.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.8/sample.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.9/water.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.10/blend.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.11/CircleDraw.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.12/RandomNoise.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.12/PerlinNoise.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.12/BlockNoise.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.12/ValueNoise.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.12/fBm.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.13/Unlit Shader.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.13/Bottle.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.14/culloff.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.15/Toon.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.16/VertexColor.shader" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/StudyShader/No.17/Flag.shader" />
+      <option value="$PROJECT_DIR$/Assets/StudyShader/No.18/Dissolve.shader" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1sfFsaq7OIZIM0K52lZJzz4LAP5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -134,6 +62,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -142,6 +71,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="ReSpellerSettingsId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -149,8 +79,9 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -158,8 +89,9 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -186,6 +118,9 @@
       <workItem from="1622985934178" duration="8805000" />
       <workItem from="1623654875506" duration="7144000" />
       <workItem from="1624290997659" duration="1764000" />
+      <workItem from="1624346496069" duration="152000" />
+      <workItem from="1624346836707" duration="541000" />
+      <workItem from="1624351621745" duration="4735000" />
     </task>
     <servers />
   </component>
@@ -209,15 +144,5 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621271177560">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621271177560" />
-    <state x="-7" y="0" width="974" height="1047" key="dock-window-1" timestamp="1623685935397">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-7" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1623685935397" />
   </component>
 </project>
