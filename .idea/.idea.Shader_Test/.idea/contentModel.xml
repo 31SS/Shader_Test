@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\SS\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\SS\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Shader_Test.-868747937.00" t="ExcludeRecursive" />
+    <e p="C:\Users\SS\Desktop\研究\Shader_Test" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Crystal Shader" t="Include">
+          <e p="Crystal Shader.shader" t="Include" />
+          <e p="LICENSE.txt" t="Include" />
+        </e>
+        <e p="JKT_ART" t="Include">
+          <e p="etc" t="Include">
+            <e p="MatCap.shader" t="Include" />
+          </e>
+        </e>
+        <e p="Shader" t="Include">
+          <e p="My Shader.shader" t="Include" />
+        </e>
+        <e p="StudyShader" t="Include">
+          <e p="No.1" t="Include">
+            <e p="sample.shader" t="Include" />
+            <e p="ShaderSample" t="Include">
+              <e p="ShaderSample" t="Include">
+                <e p="ProjectSettings" t="Include">
+                  <e p="ProjectVersion.txt" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+          <e p="No.10" t="Include">
+            <e p="blend.shader" t="Include" />
+          </e>
+          <e p="No.11" t="Include">
+            <e p="CircleDraw.shader" t="Include" />
+          </e>
+          <e p="No.12" t="Include">
+            <e p="BlockNoise.shader" t="Include" />
+            <e p="fBm.shader" t="Include" />
+            <e p="PerlinNoise.shader" t="Include" />
+            <e p="RandomNoise.shader" t="Include" />
+            <e p="ValueNoise.shader" t="Include" />
+          </e>
+          <e p="No.13" t="Include">
+            <e p="Bottle.shader" t="Include" />
+          </e>
+          <e p="No.14" t="Include">
+            <e p="culloff.shader" t="Include" />
+          </e>
+          <e p="No.15" t="Include">
+            <e p="Toon.shader" t="Include" />
+          </e>
+          <e p="No.16" t="Include">
+            <e p="VertexColor.shader" t="Include" />
+          </e>
+          <e p="No.17" t="Include">
+            <e p="Flag.shader" t="Include" />
+          </e>
+          <e p="No.18" t="Include">
+            <e p="Dissolve.shader" t="Include" />
+          </e>
+          <e p="No.19" t="Include">
+            <e p="Cutout.shader" t="Include" />
+            <e p="Floor.shader" t="Include" />
+          </e>
+          <e p="No.2" t="Include">
+            <e p="sample.shader" t="Include" />
+          </e>
+          <e p="No.3" t="Include">
+            <e p="sample_1.shader" t="Include" />
+            <e p="ShaderController.cs" t="Include" />
+          </e>
+          <e p="No.4" t="Include">
+            <e p="sample.shader" t="Include" />
+          </e>
+          <e p="No.5" t="Include">
+            <e p="sample.shader" t="Include" />
+          </e>
+          <e p="No.6" t="Include">
+            <e p="sample.shader" t="Include" />
+          </e>
+          <e p="No.7" t="Include">
+            <e p="sample.shader" t="Include" />
+          </e>
+          <e p="No.8" t="Include">
+            <e p="sample.shader" t="Include" />
+          </e>
+          <e p="No.9" t="Include">
+            <e p="water.shader" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Shader_Test.sln" t="IncludeFlat" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

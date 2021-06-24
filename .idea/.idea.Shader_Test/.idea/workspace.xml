@@ -6,32 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17/Flag.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17/Flag.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17/Materials/宝くじ.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17/Materials/宝くじ.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17/宝くじ.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.17/宝くじ.png.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/Dissolve.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/Dissolve.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/Dissolve.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/Dissolve.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/Materials.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/Materials/地紋幾何学模様.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/Materials/地紋幾何学模様.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/地紋幾何学模様.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/地紋幾何学模様.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/白黒三角形幾何学模様テクスチャ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.18/白黒三角形幾何学模様テクスチャ.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.19.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.19/Floor.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +23,12 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/StudyShader/No.17/Flag.shader" />
-      <option value="$PROJECT_DIR$/Assets/StudyShader/No.18/Dissolve.shader" />
-    </changedPaths>
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.19/Cutout.shader" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.19/Floor.shader" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1sfFsaq7OIZIM0K52lZJzz4LAP5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -60,6 +40,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -79,9 +60,8 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -89,9 +69,8 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -121,6 +100,7 @@
       <workItem from="1624346496069" duration="152000" />
       <workItem from="1624346836707" duration="541000" />
       <workItem from="1624351621745" duration="4735000" />
+      <workItem from="1624557852304" duration="767000" />
     </task>
     <servers />
   </component>
