@@ -6,10 +6,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.19.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.19/Floor.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.20.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.20/Custom_Snow.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.20/Custom_Snow.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.21/Custom_Gradation.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.21/Custom_Gradation.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.21/Gradation.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.21/Gradation.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/Assets/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/Assets/Models/dragon.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/Assets/Models/dragon.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/Assets/Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/Assets/Scene/20_Subway_Lights_3k.hdr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/Assets/Scene/20_Subway_Lights_3k.hdr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/Assets/Scene/TestScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/Assets/Scene/TestScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/Assets/Scene/TestSceneSettings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/Assets/Scene/TestSceneSettings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/Assets/Scene/skybox.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/Assets/Scene/skybox.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/AudioManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/AudioManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/ClusterInputManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/DynamicsManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/EditorBuildSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/EditorSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/EditorSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/GraphicsSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/InputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/InputManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/NavMeshAreas.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/NetworkManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/NetworkManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/Physics2DSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/PresetManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/PresetManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/ProjectSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/ProjectVersion.txt.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/QualitySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/QualitySettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/TagManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/TagManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/TimeManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/TimeManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/UnityConnectSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/VFXManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/VFXManager.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/XRSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/ShaderSample/ProjectSettings/XRSettings.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/._ShaderSample" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/._Assets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/._ProjectSettings" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/Assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/Assets/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/Assets/._Models" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/Assets/._Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/Assets/._Scene" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/Assets/._Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/Assets/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/Assets/Models/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/Assets/Models/._dragon.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/Assets/Scene.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/Assets/Scene/._20_Subway_Lights_3k.hdr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/Assets/Scene/._20_Subway_Lights_3k.hdr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/Assets/Scene/._TestScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/Assets/Scene/._skybox.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/Assets/Scene/._skybox.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings/._AudioManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings/._ClusterInputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings/._DynamicsManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings/._EditorBuildSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings/._EditorSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings/._GraphicsSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings/._InputManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings/._NavMeshAreas.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings/._NetworkManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings/._Physics2DSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings/._ProjectSettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings/._ProjectVersion.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings/._QualitySettings.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings/._TagManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.1/ShaderSample/__MACOSX/ShaderSample/ProjectSettings/._TimeManager.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/diffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/diffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/normal_specular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/normal_specular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/shadow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/translucency_gloss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree 1_Textures/translucency_gloss.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/diffuse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/diffuse.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/normal_specular.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/normal_specular.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/shadow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/shadow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/translucency_gloss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Tree_Textures/translucency_gloss.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +139,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.19/Cutout.shader" />
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.19/Floor.shader" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.20/Snow.shader" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.21/Gradation.shader" />
       </list>
     </option>
   </component>
@@ -101,6 +223,7 @@
       <workItem from="1624346836707" duration="541000" />
       <workItem from="1624351621745" duration="4735000" />
       <workItem from="1624557852304" duration="767000" />
+      <workItem from="1624870293951" duration="4732000" />
     </task>
     <servers />
   </component>

@@ -18,16 +18,16 @@
         <e p="Shader" t="Include">
           <e p="My Shader.shader" t="Include" />
         </e>
+        <e p="ShaderSample" t="Include">
+          <e p="ShaderSample" t="Include">
+            <e p="ProjectSettings" t="Include">
+              <e p="ProjectVersion.txt" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="StudyShader" t="Include">
           <e p="No.1" t="Include">
             <e p="sample.shader" t="Include" />
-            <e p="ShaderSample" t="Include">
-              <e p="ShaderSample" t="Include">
-                <e p="ProjectSettings" t="Include">
-                  <e p="ProjectVersion.txt" t="Include" />
-                </e>
-              </e>
-            </e>
           </e>
           <e p="No.10" t="Include">
             <e p="blend.shader" t="Include" />
@@ -66,6 +66,13 @@
           </e>
           <e p="No.2" t="Include">
             <e p="sample.shader" t="Include" />
+          </e>
+          <e p="No.20" t="Include">
+            <e p="Snow.shader" t="Include" />
+          </e>
+          <e p="No.21" t="Include">
+            <e p="Gradation.shader" t="Include" />
+            <e p="PointController.cs" t="Include" />
           </e>
           <e p="No.3" t="Include">
             <e p="sample_1.shader" t="Include" />
