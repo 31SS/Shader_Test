@@ -74,6 +74,13 @@
             <e p="Gradation.shader" t="Include" />
             <e p="PointController.cs" t="Include" />
           </e>
+          <e p="No.22" t="Include">
+            <e p="NoiseController.cs" t="Include" />
+            <e p="PulseNoise.shader" t="Include" />
+          </e>
+          <e p="No.23" t="Include">
+            <e p="SemiTransparent.shader" t="Include" />
+          </e>
           <e p="No.3" t="Include">
             <e p="sample_1.shader" t="Include" />
             <e p="ShaderController.cs" t="Include" />
