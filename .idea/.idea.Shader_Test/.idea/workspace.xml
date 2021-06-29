@@ -6,27 +6,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Materials/Red.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Materials/Red.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Materials/カリバー 2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Materials/カリバー 2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Materials/カリバー 3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Materials/カリバー 3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Xソードマン.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Xソードマン.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.22.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.22/NoiseController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.23/SemiTransparent.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.23/SemiTransparent.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.23/SemiTransparent.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.23/SemiTransparent.shader.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SimplePhongScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SimplePhongScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.24.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.24/Unlit_outline.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.24/Unlit_outline.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.25.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.28.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shader/ShaderMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/ShaderMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shader/カリバー.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/カリバー.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shader/グラデーション.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/グラデーション.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StudyShader/No.21/Custom_Gradation.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/StudyShader/No.21/Custom_Gradation.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,18 +35,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.19/Cutout.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.19/Floor.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.20/Snow.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.21/Gradation.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.22/PulseNoise.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.22/NoiseController.cs" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.23/SemiTransparent.shader" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/StudyShader/No.28/SimplePhong.shader" />
+      <option value="$PROJECT_DIR$/Assets/StudyShader/No.24/outline.shader" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1sfFsaq7OIZIM0K52lZJzz4LAP5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -85,8 +70,9 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -94,8 +80,9 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
+      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -129,6 +116,8 @@
       <workItem from="1624870293951" duration="5442000" />
       <workItem from="1624894284730" duration="749000" />
       <workItem from="1624896439924" duration="1516000" />
+      <workItem from="1624940257236" duration="3606000" />
+      <workItem from="1624956356071" duration="2381000" />
     </task>
     <servers />
   </component>
