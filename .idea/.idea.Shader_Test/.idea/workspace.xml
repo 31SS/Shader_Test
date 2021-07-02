@@ -6,20 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SimplePhongScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/SimplePhongScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.24.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.24/Unlit_outline.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.24/Unlit_outline.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.25.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.28.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Block.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Block.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Custom_Block.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Custom_Block.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Custom_Unitychan.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Custom_Unitychan.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Unitychan.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Unitychan.shader.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,14 +28,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.22/NoiseController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/StudyShader/No.28/SimplePhong.shader" />
-      <option value="$PROJECT_DIR$/Assets/StudyShader/No.24/outline.shader" />
-    </changedPaths>
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.25/depth.shader" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.26/Block.shader" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.26/Unitychan.shader" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1sfFsaq7OIZIM0K52lZJzz4LAP5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -70,9 +72,8 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -80,9 +81,8 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
-        <list />
+        <set />
       </option>
       <method v="2" />
     </configuration>
@@ -118,6 +118,7 @@
       <workItem from="1624896439924" duration="1516000" />
       <workItem from="1624940257236" duration="3606000" />
       <workItem from="1624956356071" duration="2381000" />
+      <workItem from="1625238155156" duration="2443000" />
     </task>
     <servers />
   </component>
