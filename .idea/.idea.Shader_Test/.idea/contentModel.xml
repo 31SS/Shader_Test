@@ -92,12 +92,23 @@
             <e p="Block.shader" t="Include" />
             <e p="Unitychan.shader" t="Include" />
           </e>
+          <e p="No.27" t="Include">
+            <e p="SimpleLambert.shader" t="Include" />
+          </e>
           <e p="No.28" t="Include">
             <e p="SimplePhong.shader" t="Include" />
+          </e>
+          <e p="No.29" t="Include">
+            <e p="monoTone.shader" t="Include" />
+            <e p="PostEffect.cs" t="Include" />
           </e>
           <e p="No.3" t="Include">
             <e p="sample_1.shader" t="Include" />
             <e p="ShaderController.cs" t="Include" />
+          </e>
+          <e p="No.30" t="Include">
+            <e p="PostEffect_b.cs" t="Include" />
+            <e p="wipeCircle.shader" t="Include" />
           </e>
           <e p="No.4" t="Include">
             <e p="sample.shader" t="Include" />

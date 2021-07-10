@@ -6,17 +6,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Block.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Block.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Custom_Block.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Custom_Block.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Custom_Unitychan.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Custom_Unitychan.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Unitychan.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.26/Unitychan.shader.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/LamSimplePhongScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/LamSimplePhongScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.27.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.27/SimpleLambert.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.27/SimpleLambert.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.29/PostEffect.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.29/PostEffect.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.29/monoTone.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.30.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect_b.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.30/wipeCircle.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SimplePhongScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SimplePhongScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +36,9 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.22/NoiseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect_b.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.29/PostEffect.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -39,6 +47,13 @@
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" />
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.26/Block.shader" />
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.26/Unitychan.shader" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.27/SimpleLambert.shader" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.29/monoTone.shader" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.29/PostEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect2.cs" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect_b.cs" />
+        <option value="$PROJECT_DIR$/Assets/StudyShader/No.30/wipeCircle.shader" />
       </list>
     </option>
   </component>
@@ -119,6 +134,7 @@
       <workItem from="1624940257236" duration="3606000" />
       <workItem from="1624956356071" duration="2381000" />
       <workItem from="1625238155156" duration="2443000" />
+      <workItem from="1625929763016" duration="4633000" />
     </task>
     <servers />
   </component>
