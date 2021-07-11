@@ -15,6 +15,25 @@
             <e p="MatCap.shader" t="Include" />
           </e>
         </e>
+        <e p="SampleScenes" t="Include">
+          <e p="Menu" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="MenuSceneLoader.cs" t="Include" />
+              <e p="PauseMenu.cs" t="Include" />
+              <e p="SceneAndURLLoader.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Scripts" t="Include">
+            <e p="CameraSwitch.cs" t="Include" />
+            <e p="LevelReset.cs" t="Include" />
+            <e p="ParticleSceneControls.cs" t="Include" />
+            <e p="PlaceTargetWithMouse.cs" t="Include" />
+            <e p="SlowMoButton.cs" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="Skybox-Procedural.shader" t="Include" />
+          </e>
+        </e>
         <e p="Shader" t="Include">
           <e p="My Shader.shader" t="Include" />
         </e>
@@ -109,6 +128,10 @@
           <e p="No.30" t="Include">
             <e p="PostEffect_b.cs" t="Include" />
             <e p="wipeCircle.shader" t="Include" />
+          </e>
+          <e p="No.31" t="Include">
+            <e p="PostEffect_c.cs" t="Include" />
+            <e p="Sepia.shader" t="Include" />
           </e>
           <e p="No.4" t="Include">
             <e p="sample.shader" t="Include" />

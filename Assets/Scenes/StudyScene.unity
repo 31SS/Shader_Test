@@ -2654,6 +2654,7 @@ GameObject:
   - component: {fileID: 1719748094}
   - component: {fileID: 1719748095}
   - component: {fileID: 1719748096}
+  - component: {fileID: 1719748097}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2759,12 +2760,25 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1719748090}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e95338dfa6d943c499fa1cde034e6ceb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   wipeCircle: {fileID: 2100000, guid: c1f1599d5bccb5045997d381be3a7428, type: 2}
+--- !u!114 &1719748097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1719748090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf9c96762dc0464448ed82b4c60811f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sepia: {fileID: 2100000, guid: cd02b3309de960f489dd7759559c8619, type: 2}
 --- !u!1 &1735247385
 GameObject:
   m_ObjectHideFlags: 0
