@@ -6,13 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.31.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/StudyShader/No.31/Sepia.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Test.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +43,7 @@
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.30/wipeCircle.shader" />
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.31/PostEffect_c.cs" />
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.31/Sepia.shader" />
+        <option value="$PROJECT_DIR$/Assets/Test/UnlitShader.shader" />
       </list>
     </option>
   </component>
@@ -128,7 +126,8 @@
       <workItem from="1625238155156" duration="2443000" />
       <workItem from="1625929763016" duration="4633000" />
       <workItem from="1626017821383" duration="6000" />
-      <workItem from="1626017843215" duration="1921000" />
+      <workItem from="1626017843215" duration="2003000" />
+      <workItem from="1626539679010" duration="763000" />
     </task>
     <servers />
   </component>

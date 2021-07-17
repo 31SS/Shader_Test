@@ -26,7 +26,6 @@
           <e p="Scripts" t="Include">
             <e p="CameraSwitch.cs" t="Include" />
             <e p="LevelReset.cs" t="Include" />
-            <e p="ParticleSceneControls.cs" t="Include" />
             <e p="PlaceTargetWithMouse.cs" t="Include" />
             <e p="SlowMoButton.cs" t="Include" />
           </e>
@@ -151,6 +150,10 @@
           <e p="No.9" t="Include">
             <e p="water.shader" t="Include" />
           </e>
+        </e>
+        <e p="Test" t="Include">
+          <e p="SurfaceShader.shader" t="Include" />
+          <e p="UnlitShader.shader" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
