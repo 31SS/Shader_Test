@@ -6,8 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Test.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
     </list>
@@ -44,6 +44,7 @@
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.31/PostEffect_c.cs" />
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.31/Sepia.shader" />
         <option value="$PROJECT_DIR$/Assets/Test/UnlitShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/Test/Color.shader" />
       </list>
     </option>
   </component>
@@ -128,6 +129,9 @@
       <workItem from="1626017821383" duration="6000" />
       <workItem from="1626017843215" duration="2003000" />
       <workItem from="1626539679010" duration="763000" />
+      <workItem from="1626599611607" duration="601000" />
+      <workItem from="1630574551128" duration="4168000" />
+      <workItem from="1630606845087" duration="233000" />
     </task>
     <servers />
   </component>

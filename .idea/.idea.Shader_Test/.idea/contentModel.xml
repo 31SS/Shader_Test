@@ -152,6 +152,7 @@
           </e>
         </e>
         <e p="Test" t="Include">
+          <e p="Color.shader" t="Include" />
           <e p="SurfaceShader.shader" t="Include" />
           <e p="UnlitShader.shader" t="Include" />
         </e>
