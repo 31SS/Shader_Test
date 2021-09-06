@@ -152,9 +152,11 @@
           </e>
         </e>
         <e p="Test" t="Include">
-          <e p="Color.shader" t="Include" />
           <e p="SurfaceShader.shader" t="Include" />
           <e p="UnlitShader.shader" t="Include" />
+        </e>
+        <e p="WaterFall" t="Include">
+          <e p="Shader_Waterfall.shader" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

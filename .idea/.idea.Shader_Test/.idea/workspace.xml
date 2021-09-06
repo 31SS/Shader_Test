@@ -6,6 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/WaterFall.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WaterFall/Shader_Waterfall.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WaterFall/shader-tutorial-waterfall-tex02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WaterFall/shader-tutorial-waterfall-tex02.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WaterFall/shader-tutorial-waterfall-tex03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/WaterFall/shader-tutorial-waterfall-tex03.jpg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
@@ -45,6 +51,8 @@
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.31/Sepia.shader" />
         <option value="$PROJECT_DIR$/Assets/Test/UnlitShader.shader" />
         <option value="$PROJECT_DIR$/Assets/Test/Color.shader" />
+        <option value="$PROJECT_DIR$/Assets/WaterFall/Shader_Waterfall_01.shader" />
+        <option value="$PROJECT_DIR$/Assets/WaterFall/Shader_Waterfall.shader" />
       </list>
     </option>
   </component>
@@ -70,7 +78,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="ReSpellerSettingsId" />
+    <property name="settings.editor.selected.configurable" value="file.status.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -132,6 +140,7 @@
       <workItem from="1626599611607" duration="601000" />
       <workItem from="1630574551128" duration="4168000" />
       <workItem from="1630606845087" duration="233000" />
+      <workItem from="1630946453256" duration="2961000" />
     </task>
     <servers />
   </component>
@@ -161,5 +170,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="161" key="#プラグイン/0.0.1920.1040@0.0.1920.1040" timestamp="1626017851511" />
+    <state x="937" y="165" key="SettingsEditor" timestamp="1630946919091">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="937" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1630946919091" />
   </component>
 </project>
