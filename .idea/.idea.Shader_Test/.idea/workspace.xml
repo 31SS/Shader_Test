@@ -6,10 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Bubble.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Bubble/Bubble.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Bubble/Bubble.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Bubble/PerlinNoise.cginc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Bubble/PerlinNoise.cginc.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/ShaderSketch.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/Sketch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WaterFall/Custom_Waterfall.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WaterFall/Custom_Waterfall.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WaterFall/Shader_Waterfall.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/WaterFall/Shader_Waterfall.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.22/NoiseController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect_b.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shader/Sketch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.29/PostEffect.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -47,6 +55,9 @@
         <option value="$PROJECT_DIR$/Assets/Test/Color.shader" />
         <option value="$PROJECT_DIR$/Assets/WaterFall/Shader_Waterfall_01.shader" />
         <option value="$PROJECT_DIR$/Assets/WaterFall/Shader_Waterfall.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/Sketch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Bubble/Bubble.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/ShaderSketch.shader" />
       </list>
     </option>
   </component>
@@ -136,6 +147,8 @@
       <workItem from="1630606845087" duration="233000" />
       <workItem from="1630946453256" duration="3025000" />
       <workItem from="1630994033727" duration="1402000" />
+      <workItem from="1631285647373" duration="676000" />
+      <workItem from="1631355344162" duration="5490000" />
     </task>
     <servers />
   </component>
