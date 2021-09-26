@@ -39,7 +39,12 @@
         </e>
         <e p="Shader" t="Include">
           <e p="My Shader.shader" t="Include" />
+          <e p="MyLambert.shader" t="Include" />
+          <e p="MyPhong.shader" t="Include" />
           <e p="ShaderSketch.shader" t="Include" />
+          <e p="ShaderSketch2.shader" t="Include" />
+          <e p="ShaderSketch3.shader" t="Include" />
+          <e p="ShaderSketch4.shader" t="Include" />
           <e p="Sketch.cs" t="Include" />
         </e>
         <e p="ShaderSample" t="Include">

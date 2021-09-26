@@ -6,16 +6,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Bubble.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Bubble/Bubble.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Bubble/Bubble.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Bubble/PerlinNoise.cginc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Bubble/PerlinNoise.cginc.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/ShaderSketch.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Sketch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/Custom_MyPhong.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/Custom_MyPhong.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/Custom_ShaderSketch2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/Custom_ShaderSketch2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/MyLambert.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/MyLambert.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/MyPhong.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/MyPhong.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/ShaderSketch2.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/ShaderSketch2.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/ShaderSketch3.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/ShaderSketch4.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +66,11 @@
         <option value="$PROJECT_DIR$/Assets/Shader/Sketch.cs" />
         <option value="$PROJECT_DIR$/Assets/Bubble/Bubble.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/ShaderSketch.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/ShaderSketch2.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/ShaderSketch3.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/ShaderSketch4.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/MyLambert.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/MyPhong.shader" />
       </list>
     </option>
   </component>
@@ -149,6 +162,12 @@
       <workItem from="1630994033727" duration="1402000" />
       <workItem from="1631285647373" duration="676000" />
       <workItem from="1631355344162" duration="5490000" />
+      <workItem from="1631696440935" duration="2812000" />
+      <workItem from="1631781124669" duration="2027000" />
+      <workItem from="1631871508079" duration="3206000" />
+      <workItem from="1632563707291" duration="4160000" />
+      <workItem from="1632645182541" duration="175000" />
+      <workItem from="1632646775601" duration="8021000" />
     </task>
     <servers />
   </component>
