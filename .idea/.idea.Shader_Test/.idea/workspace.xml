@@ -6,25 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Custom_MyPhong.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Custom_MyPhong.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Custom_ShaderSketch2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Custom_ShaderSketch2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/MyLambert.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/MyLambert.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/MyPhong.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/MyPhong.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/ShaderSketch2.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/ShaderSketch2.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/ShaderSketch3.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/ShaderSketch4.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/MyLambert.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/MyLambert.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/MyPhong.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/MyPhong.shader" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +44,6 @@
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.30/wipeCircle.shader" />
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.31/PostEffect_c.cs" />
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.31/Sepia.shader" />
-        <option value="$PROJECT_DIR$/Assets/Test/UnlitShader.shader" />
         <option value="$PROJECT_DIR$/Assets/Test/Color.shader" />
         <option value="$PROJECT_DIR$/Assets/WaterFall/Shader_Waterfall_01.shader" />
         <option value="$PROJECT_DIR$/Assets/WaterFall/Shader_Waterfall.shader" />
@@ -69,6 +53,7 @@
         <option value="$PROJECT_DIR$/Assets/Shader/ShaderSketch2.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/ShaderSketch3.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/ShaderSketch4.shader" />
+        <option value="$PROJECT_DIR$/Assets/Test/UnlitShader.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/MyLambert.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/MyPhong.shader" />
       </list>
@@ -168,6 +153,9 @@
       <workItem from="1632563707291" duration="4160000" />
       <workItem from="1632645182541" duration="175000" />
       <workItem from="1632646775601" duration="8021000" />
+      <workItem from="1632729352263" duration="5397000" />
+      <workItem from="1632895860157" duration="3119000" />
+      <workItem from="1632932003980" duration="1182000" />
     </task>
     <servers />
   </component>

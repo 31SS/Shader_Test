@@ -6,11 +6,13 @@ Shader "Unlit/MyLambert"
     }
     SubShader
     {
-        Tags { "LightMode"="ForwardBase" }
+        Tags { "RenderType"="Opaque" }
         LOD 100
 
         Pass
         {
+            Tags { "LightMode"="ForwardBase" }
+            
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
@@ -33,6 +35,7 @@ Shader "Unlit/MyLambert"
                 UNITY_FOG_COORDS(1)
                 float3 normal : NORMAL;
                 float4 vertex : SV_POSITION;
+                float3 worldPos : TEXCOORD1;
             };
 
             sampler2D _MainTex;
@@ -49,7 +52,7 @@ Shader "Unlit/MyLambert"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                float t = dot(i.normal, WorldSpaceLightDir(i.vertex));
+                float t = dot(i.normal, WorldSpaceLightDir(i.vertex) * -1.0f);
 
                 t *= -1.0f;
 
@@ -59,15 +62,8 @@ Shader "Unlit/MyLambert"
                 }
 
                 fixed3 diffuseLig = _LightColor0 * t;
-
                 fixed4 finalColor = tex2D(_MainTex, i.uv);
-
-                finalColor.xyz *= diffuseLig;
-                
-                // // sample the texture
-                // fixed4 col = tex2D(_MainTex, i.uv);
-                // // apply fog
-                // UNITY_APPLY_FOG(i.fogCoord, col);
+                finalColor.xyz *= diffuseLig;               
                 return finalColor;
             }
             ENDCG
