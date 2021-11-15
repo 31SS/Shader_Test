@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\SS\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\SS\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Shader_Test.-868747937.00" t="ExcludeRecursive" />
-    <e p="C:\Users\SS\Desktop\研究\Shader_Test" t="IncludeRecursive">
+    <e p="C:\Users\SS\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_Shader_Test.1385634797.00" t="ExcludeRecursive" />
+    <e p="C:\Users\SS\Desktop\研究勉強\Shader_Test" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Bubble" t="Include">
@@ -13,6 +13,10 @@
         <e p="Crystal Shader" t="Include">
           <e p="Crystal Shader.shader" t="Include" />
           <e p="LICENSE.txt" t="Include" />
+        </e>
+        <e p="Fresnel" t="Include">
+          <e p="Fresnel2.shader" t="Include" />
+          <e p="FresnelReflection.shader" t="Include" />
         </e>
         <e p="JKT_ART" t="Include">
           <e p="etc" t="Include">
@@ -38,6 +42,7 @@
           </e>
         </e>
         <e p="Shader" t="Include">
+          <e p="BRDF.shader" t="Include" />
           <e p="My Shader.shader" t="Include" />
           <e p="MyLambert.shader" t="Include" />
           <e p="MyPhong.shader" t="Include" />

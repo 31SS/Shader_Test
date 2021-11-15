@@ -6,10 +6,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/Fresnel2.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/Fresnel2.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/FresnelReflection.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/FresnelReflection.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/FresnelReflection.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/FresnelReflection.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/Unlit_Fresnel2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/Unlit_Fresnel2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/BRDF.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/BRDF.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/Unlit_BRDF.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/Unlit_BRDF.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/駐車場.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shader/駐車場.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shader/MyLambert.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/MyLambert.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Shader/MyPhong.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/MyPhong.shader" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +35,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.22/NoiseController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect_b.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Sketch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.29/PostEffect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect_b.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -56,6 +70,9 @@
         <option value="$PROJECT_DIR$/Assets/Test/UnlitShader.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/MyLambert.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/MyPhong.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/FresnelReflection.shader" />
+        <option value="$PROJECT_DIR$/Assets/Fresnel/Fresnel2.shader" />
+        <option value="$PROJECT_DIR$/Assets/Shader/BRDF.shader" />
       </list>
     </option>
   </component>
@@ -156,6 +173,12 @@
       <workItem from="1632729352263" duration="5397000" />
       <workItem from="1632895860157" duration="3119000" />
       <workItem from="1632932003980" duration="1182000" />
+      <workItem from="1633875664847" duration="557000" />
+      <workItem from="1633936450419" duration="3618000" />
+      <workItem from="1634013957114" duration="955000" />
+      <workItem from="1634548138785" duration="117000" />
+      <workItem from="1634548310134" duration="4710000" />
+      <workItem from="1634567508493" duration="4900000" />
     </task>
     <servers />
   </component>
@@ -181,10 +204,15 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="161" key="#プラグイン" timestamp="1626017851511">
+    <state x="1032" y="161" key="#プラグイン" timestamp="1634548340988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="1032" y="161" key="#プラグイン/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1634548340988" />
     <state x="1032" y="161" key="#プラグイン/0.0.1920.1040@0.0.1920.1040" timestamp="1626017851511" />
+    <state x="1179" y="345" key="#通知" timestamp="1634549517613">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1179" y="345" key="#通知/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1634549517613" />
     <state x="937" y="165" key="SettingsEditor" timestamp="1630946919091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
