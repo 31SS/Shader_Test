@@ -3,7 +3,7 @@ Shader "FresnelReflection"
     Properties
     {
         [PowerSlider(0.1)] _F0 ("F0", Range(0.0, 1.0)) = 0.02
-        _CubeMap ("Cube M    ap", Cube) = "white" {}
+        _CubeMap ("Cube Map", Cube) = "white" {}
     }
     SubShader
     {

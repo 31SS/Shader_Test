@@ -6,6 +6,18 @@
     <e p="C:\Users\SS\Desktop\研究勉強\Shader_Test" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="BRDF" t="Include">
+          <e p="BRDF.shader" t="Include" />
+          <e p="CookTorrance.shader" t="Include" />
+          <e p="Fresnel" t="Include">
+            <e p="Fresnel.shader" t="Include" />
+            <e p="FresnelReflection.shader" t="Include" />
+          </e>
+          <e p="GeometrySchlick.shader" t="Include" />
+          <e p="GGX2.shader" t="Include" />
+          <e p="NDF.shader" t="Include" />
+          <e p="NDF2.shader" t="Include" />
+        </e>
         <e p="Bubble" t="Include">
           <e p="Bubble.shader" t="Include" />
           <e p="PerlinNoise.cginc" t="Include" />
@@ -13,10 +25,6 @@
         <e p="Crystal Shader" t="Include">
           <e p="Crystal Shader.shader" t="Include" />
           <e p="LICENSE.txt" t="Include" />
-        </e>
-        <e p="Fresnel" t="Include">
-          <e p="Fresnel2.shader" t="Include" />
-          <e p="FresnelReflection.shader" t="Include" />
         </e>
         <e p="JKT_ART" t="Include">
           <e p="etc" t="Include">
@@ -42,7 +50,6 @@
           </e>
         </e>
         <e p="Shader" t="Include">
-          <e p="BRDF.shader" t="Include" />
           <e p="My Shader.shader" t="Include" />
           <e p="MyLambert.shader" t="Include" />
           <e p="MyPhong.shader" t="Include" />

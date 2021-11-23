@@ -6,24 +6,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/Fresnel2.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/Fresnel2.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/FresnelReflection.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/FresnelReflection.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/FresnelReflection.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/FresnelReflection.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/Unlit_Fresnel2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Fresnel/Unlit_Fresnel2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/BRDF.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/BRDF.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Unlit_BRDF.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Unlit_BRDF.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/駐車場.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/駐車場.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/BRDF.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/BRDF.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/CookTorrance.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/CookTorrance.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Custom_CookTorrance.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Custom_CookTorrance.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Fresnel.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Fresnel/Fresnel.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Fresnel/Fresnel.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Fresnel/FresnelReflection.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Fresnel/FresnelReflection.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Fresnel/FresnelReflection.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Fresnel/FresnelReflection.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Fresnel/Unlit_Fresnel.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Fresnel/Unlit_Fresnel.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/GGX2.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/GeometrySchlick.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/GeometrySchlick.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/NDF.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/NDF.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/NDF2.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Unlit_BRDF.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Unlit_BRDF.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Unlit_GeometrySchlick.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Unlit_GeometrySchlick.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Unlit_NDF.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Unlit_NDF.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Unlit_NDF2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/BRDF/Unlit_NDF2.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresnel.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresnel/Fresnel2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresnel/Fresnel2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresnel/FresnelReflection.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresnel/FresnelReflection.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresnel/FresnelReflection.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresnel/FresnelReflection.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresnel/Unlit_Fresnel2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fresnel/Unlit_Fresnel2.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/BRDF.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/BRDF.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Unlit_BRDF.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Unlit_BRDF.mat.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +64,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.22/NoiseController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/SS/Desktop/研究勉強/Shader_Test/Assets/BRDF/NDF.shader" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/SS/Desktop/研究勉強/Shader_Test/Assets/BRDF/NDF.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Sketch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -73,6 +103,15 @@
         <option value="$PROJECT_DIR$/Assets/Shader/FresnelReflection.shader" />
         <option value="$PROJECT_DIR$/Assets/Fresnel/Fresnel2.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/BRDF.shader" />
+        <option value="$PROJECT_DIR$/Assets/BRDF/GGX2.shader" />
+        <option value="$PROJECT_DIR$/Assets/BRDF/NDF2.shader" />
+        <option value="$PROJECT_DIR$/Assets/BRDF/NDF.shader" />
+        <option value="$PROJECT_DIR$/Assets/BRDF/GGX.shader" />
+        <option value="$PROJECT_DIR$/Assets/BRDF/GeometrySchlick.shader" />
+        <option value="$PROJECT_DIR$/Assets/BRDF/Fresnel/Fresnel.shader" />
+        <option value="$PROJECT_DIR$/Assets/BRDF/Fresnel/FresnelReflection.shader" />
+        <option value="$PROJECT_DIR$/Assets/BRDF/BRDF.shader" />
+        <option value="$PROJECT_DIR$/Assets/BRDF/CookTorrance.shader" />
       </list>
     </option>
   </component>
@@ -99,6 +138,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="file.status.colors" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Assets/BRDF/BRDF.shader" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -179,6 +219,13 @@
       <workItem from="1634548138785" duration="117000" />
       <workItem from="1634548310134" duration="4710000" />
       <workItem from="1634567508493" duration="4900000" />
+      <workItem from="1636996138002" duration="596000" />
+      <workItem from="1637224390881" duration="5762000" />
+      <workItem from="1637394307349" duration="2492000" />
+      <workItem from="1637486416850" duration="1331000" />
+      <workItem from="1637508646129" duration="3012000" />
+      <workItem from="1637569792046" duration="3565000" />
+      <workItem from="1637658089955" duration="10916000" />
     </task>
     <servers />
   </component>
@@ -208,14 +255,25 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1032" y="161" key="#プラグイン/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1634548340988" />
-    <state x="1032" y="161" key="#プラグイン/0.0.1920.1040@0.0.1920.1040" timestamp="1626017851511" />
     <state x="1179" y="345" key="#通知" timestamp="1634549517613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1179" y="345" key="#通知/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1634549517613" />
+    <state x="772" y="-23" width="774" height="847" maximized="true" key="DiffContextDialog" timestamp="1637683020589">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="772" y="-23" width="774" height="847" maximized="true" key="DiffContextDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637683020589" />
     <state x="937" y="165" key="SettingsEditor" timestamp="1630946919091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="937" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1630946919091" />
+    <state x="1053" y="100" width="774" height="847" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1637661643012">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1053" y="100" width="774" height="847" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637661643012" />
+    <state x="-7" y="0" width="963" height="1047" key="dock-window-1" timestamp="1637686110424">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-7" y="0" width="963" height="1047" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637686110424" />
   </component>
 </project>
