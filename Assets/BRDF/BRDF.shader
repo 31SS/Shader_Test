@@ -3,6 +3,7 @@ Shader "Unlit/BRDF"
     Properties
     {
         _MainTex ("Texture", 2D) = "white" {}
+        _Color ("Diffuse Color", Color) = (1, 1, 1, 1)
         _Glossiness ("Smoothness", Range(0,1)) = 0.5
         _a ("alpha", Range(0.0, 1.0)) = 0.1
         _k ("k", Range(0.0, 1.0)) = 0.1
@@ -22,7 +23,9 @@ Shader "Unlit/BRDF"
             #pragma multi_compile_fog
 
             #include "UnityCG.cginc"
+            #include "Lighting.cginc"
 
+            uniform float4 _Color;
             half _a;
             half _k;
             half _F0;
@@ -83,6 +86,16 @@ Shader "Unlit/BRDF"
                 float F = F0 + (1.0f - F0) * pow(1.0f - VdotH, 5);
                 return F;
             }
+
+            // float Flesnel(float3 V, float H, float _F0)
+            // {
+            //     float VdotH = saturate(dot(V, H));
+            //     float F0 = saturate(_F0);
+            //     float F = pow(1.0 - VdotH, 5.0);
+            //     F *= (1.0 - F0);
+            //     F += F0;
+            //     return F;
+            // }
             
             sampler2D _MainTex;
             float4 _MainTex_ST;
@@ -113,6 +126,8 @@ Shader "Unlit/BRDF"
 
             fixed4 frag (v2f i) : SV_Target
             {
+                float3 ambientlight = unity_AmbientEquator.xyz * _Color.rgb;
+                
                 float3 lightDirectionNormal = normalize(_WorldSpaceLightPos0.xyz);
                 float NdotL = saturate(dot(i.normal, lightDirectionNormal));
                 // ワールド空間上の視点（カメラ）位置と法線との内積を計算
@@ -133,12 +148,12 @@ Shader "Unlit/BRDF"
 
                 float cookTransModel = (D * G * F) / (4 * NdotL * NdotV + 0.000001);
 
-                float3 diffuseReflection = unity_LightColor0.xyz *  NdotL;
+                float diffuseReflection = _LightColor0.xyz * _Color.xyz * NdotL;
 
                 // 最後に色を合算して出力
-                // return float4(diffuseReflection + cookTransModel, 1.0);
+                return float4(ambientlight + diffuseReflection + cookTransModel, 1.0);
 
-                return tex2D(_MainTex, i.uv) * cookTransModel;
+                // return tex2D(_MainTex, i.uv) * cookTransModel * diffuseReflection;
             }
             ENDCG
         }
