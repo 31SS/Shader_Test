@@ -5,9 +5,9 @@ Shader "Unlit/BRDF"
         _MainTex ("Texture", 2D) = "white" {}
         _Color ("Diffuse Color", Color) = (1, 1, 1, 1)
         _Glossiness ("Smoothness", Range(0,1)) = 0.5
-        _a ("alpha", Range(0.0, 1.0)) = 0.1
-        _k ("k", Range(0.0, 1.0)) = 0.1
-         _F0 ("F0", Range(0.0, 1.0)) = 0.02
+        _D_Roughness ("D_Roughness", Range(0.0, 1.0)) = 0.1
+        _G_Roughness ("G_Roughness", Range(0.0, 1.0)) = 0.1
+         _F0 ("Fresnel Reflection Coefficient", Range(0.0, 1.0)) = 0.02
     }
     SubShader
     {
@@ -19,15 +19,14 @@ Shader "Unlit/BRDF"
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            // make fog work
             #pragma multi_compile_fog
 
             #include "UnityCG.cginc"
             #include "Lighting.cginc"
 
             uniform float4 _Color;
-            half _a;
-            half _k;
+            half _D_Roughness;
+            half _G_Roughness;
             half _F0;
             
             struct appdata
@@ -45,12 +44,20 @@ Shader "Unlit/BRDF"
                 UNITY_FOG_COORDS(1)
                 float4 pos : SV_POSITION;
             };
-
-            //正規分布関数
+            
+           
+            // <summary>
+            // 正規分布関数
+            // <summary>
+            // <param name="N">法線</param>
+            // <param name="H">ハーフベクトル</param>
+            // <param name="alpha">表面の粗さ</param>
+            
             //Nは法線、HはVとLのハーフベクトルaは表面の粗さ
-            float distributionGGX(float3 N, float3 H, float alpha)
+            float distributionGGX(float3 N, float3 H)
             {
-                float a2 = alpha * alpha;
+                float a = _D_Roughness * _D_Roughness;
+                float a2 = a * a;
                 float NdotH = saturate(dot(N, H));
                 float NdotH2 = NdotH * NdotH;
             
@@ -69,14 +76,30 @@ Shader "Unlit/BRDF"
                 float denom = NdotV * (1.0 - k) + k;
                 return nom / denom;
             }
-            float GeometrySmith(float3 N, float3 V, float3 L, float3 k)
+            float GeometrySmith(float3 N, float3 V, float3 L, float3 Roughness)
             {
+                float k = pow(Roughness + 1.0f, 2) / 8.0f;
+                
                 float NdotV = max(dot(N, V), 0.0);
                 float NdotL = max(dot(N, L), 0.0);
                 float ggx1 = GeometrySchlickGGX(NdotV, k);
                 float ggx2 = GeometrySchlickGGX(NdotL, k);
                 return ggx1 * ggx2;
             }
+
+            			// G - 幾何減衰の項（クック トランスモデル）
+			float G_CookTorrance(float3 L, float3 V, float3 H, float3 N) {
+				float NdotH = saturate(dot(N, H));
+				float NdotL = saturate(dot(N, L));
+				float NdotV = saturate(dot(N, V));
+				float VdotH = saturate(dot(V, H));
+
+			    float NH2 = 2.0 * NdotH;
+			    float g1 = (NH2 * NdotV) / VdotH;
+			    float g2 = (NH2 * NdotL) / VdotH;
+			    float G = min(1.0, min(g1, g2));
+				return G;
+			}
 
             //フレネルの式
             float Flesnel(float3 V, float H, float _F0)
@@ -126,7 +149,7 @@ Shader "Unlit/BRDF"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                float3 ambientlight = unity_AmbientEquator.xyz * _Color.rgb;
+                float3 ambientLight = unity_AmbientEquator.xyz * tex2D(_MainTex, i.normal).rgb;
                 
                 float3 lightDirectionNormal = normalize(_WorldSpaceLightPos0.xyz);
                 float NdotL = saturate(dot(i.normal, lightDirectionNormal));
@@ -140,20 +163,29 @@ Shader "Unlit/BRDF"
                 
 
                 // D_GGXの項
-                float D = distributionGGX(i.normal, halfVector, _a);
+                float3 D = distributionGGX(i.normal, halfVector);
 
-                float G = GeometrySmith(i.normal, viewDirectionNormal, lightDirectionNormal, _k);
+                float3 G = GeometrySmith(i.normal, viewDirectionNormal, lightDirectionNormal, _G_Roughness);
+                // float G = G_CookTorrance(lightDirectionNormal, viewDirectionNormal, halfVector, i.normal);
 
-                float F = Flesnel(viewDirectionNormal, halfVector, _F0);
+                float3 F = Flesnel(viewDirectionNormal, halfVector, _F0);
 
-                float cookTransModel = (D * G * F) / (4 * NdotL * NdotV + 0.000001);
+                // float cookTransModel = (D * G * F) / (4 * NdotL * NdotV + 0.000001);
 
-                float diffuseReflection = _LightColor0.xyz * _Color.xyz * NdotL;
+                float3 cookTransModel = (D * G * F) / (4.0 * NdotL * NdotV + 0.000001);
+
+                float3 diffuseReflection = _LightColor0.xyz * tex2D(_MainTex, i.normal).xyz * NdotL;
+
+                float4 color = tex2D(_MainTex, i.uv);
 
                 // 最後に色を合算して出力
-                return float4(ambientlight + diffuseReflection + cookTransModel, 1.0);
+                return float4(ambientLight + cookTransModel + diffuseReflection, 1.0);
 
                 // return tex2D(_MainTex, i.uv) * cookTransModel * diffuseReflection;
+
+                // return tex2D(_MainTex, i.uv) * cookTransModel;
+
+                // return cookTransModel;
             }
             ENDCG
         }

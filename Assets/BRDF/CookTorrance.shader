@@ -4,8 +4,8 @@
 Shader "Custom/CookTorrance" {
 	Properties {
 		_Color ("Diffuse Color", Color) = (1,1,1,1)
-		_Roughness ("Roughness", Float) = 0.5
-		_FresnelReflectance ("Fresnel Reflectance", Float) = 0.5
+		_Roughness ("Roughness", Range(0.0, 1.0)) = 0.5
+		_FresnelReflectance ("Fresnel Reflectance", Range(0.0, 1.0)) = 0.5
 		_MainTex ("Texture", 2D) = "white" {}
 	}
 	SubShader {
@@ -86,7 +86,7 @@ Shader "Custom/CookTorrance" {
 
 	        float4 frag(v2f i) : COLOR {
 				// 環境光とマテリアルの色を合算
-	        	float3 ambientLight = unity_AmbientEquator.xyz * _Color.rgb;
+	        	float3 ambientLight = unity_AmbientEquator.xyz * tex2D(_MainTex, i.normal).rgb;
 	        
 				// ワールド空間上のライト位置と法線との内積を計算
 				float3 lightDirectionNormal = normalize(_WorldSpaceLightPos0.xyz);
@@ -110,13 +110,14 @@ Shader "Custom/CookTorrance" {
 
 				// スペキュラおよびディフューズを計算
 			    float specularReflection = (D * F * G) / (4.0 * NdotV * NdotL + 0.000001);
-				float3 diffuseReflection = _LightColor0.xyz * _Color.xyz * NdotL;
+				float3 diffuseReflection = _LightColor0.xyz * tex2D(_MainTex, i.normal).xyz * NdotL;
 
 				// 最後に色を合算して出力
 			    // return UNITY_SAMPLE_TEXCUBE(_CubeMap, i.vpos) * float4(ambientLight + diffuseReflection + specularReflection, 1.0);
-				//return float4(ambientLight + diffuseReflection + specularReflection, 1.0);
+				return float4(ambientLight + diffuseReflection + specularReflection, 1.0);
 	        	// return  UNITY_SAMPLE_TEXCUBE(_CubeMap, i.vpos) * specularReflection;
-	        	return float4(ambientLight + diffuseReflection + specularReflection, 1.0) * tex2D(_MainTex, i.vpos);
+	        	// return float4(ambientLight + diffuseReflection + specularReflection, 1.0) * tex2D(_MainTex, i.vpos);
+	        	// return specularReflection;
 	        }
 
 	        ENDCG
