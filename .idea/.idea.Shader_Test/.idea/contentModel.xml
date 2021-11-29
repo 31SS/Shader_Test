@@ -8,6 +8,8 @@
       <e p="Assets" t="Include">
         <e p="BRDF" t="Include">
           <e p="BRDF.shader" t="Include" />
+          <e p="BSDF.shader" t="Include" />
+          <e p="BTDF.shader" t="Include" />
           <e p="CookTorrance.shader" t="Include" />
           <e p="Fresnel" t="Include">
             <e p="Fresnel.shader" t="Include" />
