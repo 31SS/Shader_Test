@@ -1,4 +1,4 @@
-Shader "Unlit/BTDF"
+Shader "Unlit/BSDF"
 {
     Properties
     {
@@ -49,7 +49,6 @@ Shader "Unlit/BTDF"
                 float4 pos : SV_POSITION;
             };
             
-           
             // <summary>
             // 正規分布関数
             // <summary>
@@ -153,7 +152,7 @@ Shader "Unlit/BTDF"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                float3 ambientLight = unity_AmbientEquator.xyz * tex2D(_MainTex, i.normal).rgb;
+                float3 ambientLight = unity_AmbientEquator.xyz;
                 
                 float3 lightDirectionNormal = normalize(_WorldSpaceLightPos0.xyz);
                 float NdotL = saturate(dot(i.normal, lightDirectionNormal));
@@ -165,10 +164,7 @@ Shader "Unlit/BTDF"
 
                 float HdotV = saturate(dot(halfVector, viewDirectionNormal));
 
-                float HdotL = saturate(dot(halfVector, lightDirectionNormal));
-
-
-                
+                float HdotL = saturate(dot(halfVector, lightDirectionNormal));                
 
                 // D_GGXの項
                 float3 D = distributionGGX(i.normal, halfVector);
@@ -180,6 +176,8 @@ Shader "Unlit/BTDF"
 
                 // float3 cookTransModel = (D * G * F) / (4.0 * NdotL * NdotV + 0.000001);
 
+                float3 BRDF = (D * G * F) / (4.0 * NdotL * NdotV + 0.000001);
+
                 float3 BTDF = ((HdotL * HdotV) / (NdotL * NdotV)) * ((pow(_a_i, 2) * D * G * (1 - F)) / pow((_a_i * HdotV + _a_o * HdotL), 2));
 
                 float3 diffuseReflection = _LightColor0.xyz * tex2D(_MainTex, i.normal).xyz * NdotL;
@@ -187,7 +185,7 @@ Shader "Unlit/BTDF"
                 float4 color = tex2D(_MainTex, i.uv);
 
                 // 最後に色を合算して出力
-                return float4(ambientLight + BTDF + diffuseReflection, 1.0);
+                return float4( BRDF + BTDF + diffuseReflection, 1.0);
 
                 // return tex2D(_MainTex, i.uv) * cookTransModel * diffuseReflection;
 

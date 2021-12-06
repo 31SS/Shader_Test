@@ -6,20 +6,6 @@
     <e p="C:\Users\SS\Desktop\研究勉強\Shader_Test" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="BRDF" t="Include">
-          <e p="BRDF.shader" t="Include" />
-          <e p="BSDF.shader" t="Include" />
-          <e p="BTDF.shader" t="Include" />
-          <e p="CookTorrance.shader" t="Include" />
-          <e p="Fresnel" t="Include">
-            <e p="Fresnel.shader" t="Include" />
-            <e p="FresnelReflection.shader" t="Include" />
-          </e>
-          <e p="GeometrySchlick.shader" t="Include" />
-          <e p="GGX2.shader" t="Include" />
-          <e p="NDF.shader" t="Include" />
-          <e p="NDF2.shader" t="Include" />
-        </e>
         <e p="Bubble" t="Include">
           <e p="Bubble.shader" t="Include" />
           <e p="PerlinNoise.cginc" t="Include" />
@@ -32,6 +18,20 @@
           <e p="etc" t="Include">
             <e p="MatCap.shader" t="Include" />
           </e>
+        </e>
+        <e p="MainStudy" t="Include">
+          <e p="BRDF.shader" t="Include" />
+          <e p="BSDF.shader" t="Include" />
+          <e p="BTDF.shader" t="Include" />
+          <e p="CookTorrance.shader" t="Include" />
+          <e p="Fresnel" t="Include">
+            <e p="Fresnel.shader" t="Include" />
+            <e p="FresnelReflection.shader" t="Include" />
+          </e>
+          <e p="GeometrySchlick.shader" t="Include" />
+          <e p="GGX2.shader" t="Include" />
+          <e p="NDF.shader" t="Include" />
+          <e p="NDF2.shader" t="Include" />
         </e>
         <e p="SampleScenes" t="Include">
           <e p="Menu" t="Include">
