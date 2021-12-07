@@ -28,8 +28,8 @@ Material:
     - _F0: 0.02
     - _G_Roughness: 0.1
     - _Glossiness: 0.5
-    - _R_i: 1
-    - _R_o: 1.5
+    - _R_i: 1.04
+    - _R_o: 1.45
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
