@@ -22,6 +22,7 @@
         <e p="MainStudy" t="Include">
           <e p="BRDF.shader" t="Include" />
           <e p="BSDF.shader" t="Include" />
+          <e p="BSDF2.shader" t="Include" />
           <e p="BTDF.shader" t="Include" />
           <e p="CookTorrance.shader" t="Include" />
           <e p="Fresnel" t="Include">
@@ -51,10 +52,15 @@
             <e p="Skybox-Procedural.shader" t="Include" />
           </e>
         </e>
+        <e p="SampleShader" t="Include">
+          <e p="SampleBRDF1.shader" t="Include" />
+          <e p="SampleBRDF2.shader" t="Include" />
+        </e>
         <e p="Shader" t="Include">
           <e p="My Shader.shader" t="Include" />
           <e p="MyLambert.shader" t="Include" />
           <e p="MyPhong.shader" t="Include" />
+          <e p="Shader_Glass.shader" t="Include" />
           <e p="ShaderSketch.shader" t="Include" />
           <e p="ShaderSketch2.shader" t="Include" />
           <e p="ShaderSketch3.shader" t="Include" />

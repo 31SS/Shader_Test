@@ -43,6 +43,7 @@ Shader "Unlit/BRDF"
                 float4 vpos :TEXCOORD4;
                 UNITY_FOG_COORDS(1)
                 float4 pos : SV_POSITION;
+                float4 color : COLOR;
             };
             
            
@@ -144,12 +145,14 @@ Shader "Unlit/BRDF"
                 // 該当ピクセルのライティングに、ワールド空間上での位置を保持しておく
                 o.vpos = mul(unity_ObjectToWorld, v.vertex);
 
+                o.color = _Color;
+
                 return o;
             }
 
             fixed4 frag (v2f i) : SV_Target
             {
-                float3 ambientLight = unity_AmbientEquator.xyz * tex2D(_MainTex, i.normal).rgb;
+                float3 ambientLight = unity_AmbientEquator.xyz * i.color;
                 
                 float3 lightDirectionNormal = normalize(_WorldSpaceLightPos0.xyz);
                 float NdotL = saturate(dot(i.normal, lightDirectionNormal));
@@ -174,7 +177,7 @@ Shader "Unlit/BRDF"
 
                 float3 cookTransModel = (D * G * F) / (4.0 * NdotL * NdotV + 0.000001);
 
-                float3 diffuseReflection = _LightColor0.xyz * tex2D(_MainTex, i.normal).xyz * NdotL;
+                float3 diffuseReflection = _LightColor0.xyz * tex2D(_MainTex, i.normal).rgb * NdotL;
 
                 float4 color = tex2D(_MainTex, i.uv);
 

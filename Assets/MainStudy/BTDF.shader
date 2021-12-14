@@ -13,9 +13,13 @@ Shader "Unlit/BTDF"
     }
     SubShader
     {
-        Tags { "RenderType"="Transparent" "Queue" = "Transparent" }
-        Blend SrcAlpha OneMinusSrcAlpha
+        Tags { "RenderType"="Opaque" "Lightmode" = "ForwardBase"}
         LOD 100
+//        Tags { "RenderType"="Transparent" "Queue" = "Transparent" }
+//        Blend DstColor Zero
+//        ZTest LEqual
+//        ZWrite On
+//        LOD 100
 
         Pass
         {
@@ -26,6 +30,7 @@ Shader "Unlit/BTDF"
 
             #include "UnityCG.cginc"
             #include "Lighting.cginc"
+            #include "UnityStandardUtils.cginc"
 
             uniform float4 _Color;
             half _D_Roughness;
@@ -43,11 +48,12 @@ Shader "Unlit/BTDF"
 
             struct v2f
             {
+                float4 pos : SV_POSITION;
                 float2 uv : TEXCOORD0;
                 float3 normal : TEXCOORD1;
-                float4 vpos :TEXCOORD4;
-                UNITY_FOG_COORDS(1)
-                float4 pos : SV_POSITION;
+                float4 worldPos : TEXCOORD2;
+                float4 ambient : TEXCOORD3;
+                float4 color : COLOR;
             };
             
            
@@ -86,7 +92,9 @@ Shader "Unlit/BTDF"
                 float k = pow(Roughness + 1.0f, 2) / 8.0f;
                 
                 float NdotV = max(dot(N, V), 0.0);
+                // float NdotV = saturate(dot(N, V));
                 float NdotL = max(dot(N, L), 0.0);
+                // float NdotL = saturate(dot(N, V));
                 float ggx1 = GeometrySchlickGGX(NdotV, k);
                 float ggx2 = GeometrySchlickGGX(NdotL, k);
                 return ggx1 * ggx2;
@@ -99,7 +107,7 @@ Shader "Unlit/BTDF"
 				float NdotV = saturate(dot(N, V));
 				float VdotH = saturate(dot(V, H));
 
-			    float NH2 = 2.0 * NdotH;
+			    float NH2 = 5.0 * NdotH;
 			    float g1 = (NH2 * NdotV) / VdotH;
 			    float g2 = (NH2 * NdotL) / VdotH;
 			    float G = min(1.0, min(g1, g2));
@@ -149,22 +157,31 @@ Shader "Unlit/BTDF"
                 o.pos = UnityObjectToClipPos(v.vertex);
 
                 // ワールド空間での法線を計算
-                o.normal = normalize(mul(unity_ObjectToWorld, float4(v.normal, 0.0)).xyz);
+                // o.normal = normalize(mul(unity_ObjectToWorld, float4(v.normal, 0.0)).xyz);
 
+                o.normal = UnityObjectToWorldNormal(v.normal);
                 // 該当ピクセルのライティングに、ワールド空間上での位置を保持しておく
-                o.vpos = mul(unity_ObjectToWorld, v.vertex);
+                o.worldPos = mul(unity_ObjectToWorld, v.vertex);
+
+                o.ambient.rgb = 0;
+                o.ambient.rgb = ShadeSHPerVertex(o.normal, o.ambient.rgb);
+
+                o.color = _Color;
 
                 return o;
             }
 
             fixed4 frag (v2f i) : SV_Target
             {
-                float3 ambientLight = unity_AmbientEquator.xyz * tex2D(_MainTex, i.normal).rgb;
+                //環境光とテクスチャの乗算
+                // float3 ambientLight = unity_AmbientEquator.xyz * tex2D(_MainTex, i.normal).rgb;
+                float3 ambientLight = unity_AmbientEquator.xyz  * i.color;
+                float3 albedo = tex2D(_MainTex, i.uv) * _Color;
                 
                 float3 lightDirectionNormal = normalize(_WorldSpaceLightPos0.xyz);
-                float NdotL = InnerProduct(i.normal, lightDirectionNormal);
+                float3 NdotL = InnerProduct(i.normal, lightDirectionNormal);
                 // ワールド空間上の視点（カメラ）位置と法線との内積を計算
-                float3 viewDirectionNormal = normalize((float4(_WorldSpaceCameraPos, 1.0) - i.vpos).xyz);
+                float3 viewDirectionNormal = normalize((float4(_WorldSpaceCameraPos, 1.0) - i.worldPos).xyz);
                 float3 NdotV = InnerProduct(i.normal, viewDirectionNormal);
                 // ライトと視点ベクトルのハーフベクトルを計算
                 float3 halfVector = normalize(lightDirectionNormal + viewDirectionNormal);
@@ -172,9 +189,6 @@ Shader "Unlit/BTDF"
                 float3 HdotV = InnerProduct(halfVector, viewDirectionNormal);
 
                 float3 HdotL = InnerProduct(halfVector, lightDirectionNormal);
-
-
-                
 
                 // D_GGXの項
                 float3 D = distributionGGX(i.normal, halfVector);
@@ -194,10 +208,10 @@ Shader "Unlit/BTDF"
                 
                 float3 diffuseReflection = _LightColor0.xyz * tex2D(_MainTex, i.normal).rgb * NdotL;
 
-                float4 color = tex2D(_MainTex, i.uv);
+                float3 indirectDiffuse = ShadeSHPerPixel(i.normal, i.ambient, i.worldPos);
 
                 // 最後に色を合算して出力
-                return float4( BTDF + diffuseReflection, 1.0);
+                return float4(ambientLight + BTDF + diffuseReflection, 1.0);
 
                 // return tex2D(_MainTex, i.uv) * cookTransModel * diffuseReflection;
 
