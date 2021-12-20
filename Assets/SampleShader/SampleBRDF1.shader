@@ -138,7 +138,6 @@ Shader "SampleShader1"
 
                 // Indirect Diffuse
                 half3 indirectDiffuse = ShadeSHPerPixel(i.worldNormal, i.ambient, i.worldPos);
-                
                 // roughnessに対応する鏡面反射のミップマップレベルを求める
                 half3 reflDir = reflect(-i.viewDir, i.worldNormal);
                 half mip = perceptualRoughness * (1.7 - 0.7 * perceptualRoughness);

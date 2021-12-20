@@ -190,7 +190,7 @@ Shader "Unlit/BSDF2"
 
                 float3 BRDF = (D * G * F) / (4.0 * NdotL * NdotV + 0.000001);;
                 
-                float3 leftItem = (HdotL * HdotV) / (NdotL * NdotV);
+                float3 leftItem = (HdotL * HdotV) / ( NdotV);
                 float3 rightItem = (pow(_R_o, 2) * D * G * (1 - F)) / pow((_R_i * HdotV + _R_o * HdotL), 10);
                 float3 BTDF = leftItem * rightItem;
 

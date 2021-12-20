@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Custom_SurfaceShader
-  m_Shader: {fileID: 4800000, guid: 1c9923b6368d39747953a7a8f00a69a3, type: 3}
+  m_Shader: {fileID: 4800000, guid: 84c1d5455b629c14a9d8fe5e00eb7eff, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -26,6 +26,7 @@ Material:
     m_Floats:
     - _Glossiness: 0.6
     - _Metallic: 0
+    - _Roughness: 0.5
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

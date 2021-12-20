@@ -24,12 +24,13 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _D_Roughness: 0.57
-    - _F0: 0.42
-    - _G_Roughness: 0.49
+    - _D_Roughness: 0.61
+    - _F0: 0.38
+    - _G_Roughness: 0.47
     - _Glossiness: 0.45
     - _R_i: 0.98
     - _R_o: 2
+    - _Roughness: 0.09
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 1, g: 0, b: 0.29760408, a: 1}
   m_BuildTextureStacks: []

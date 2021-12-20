@@ -6,59 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/CornellBox-Sphere.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/CornellBox-Sphere.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/bunny.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/bunny.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/Bottle Coca-Cola N080710.3ds" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/Bottle Coca-Cola N080710.3ds.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/Maps.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/Maps/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/Maps/Thumbs.db.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/Maps/label.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/Maps/label.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/Maps/label_mask.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/Maps/label_mask.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/Maps/tapa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/Maps/tapa.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/Maps/tapamask copy copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/Maps/tapamask copy copy.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/__MACOSX.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/__MACOSX/._Bottle Coca-Cola N080710.3ds" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/__MACOSX/._Maps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/__MACOSX/Maps.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/__MACOSX/Maps/._Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/__MACOSX/Maps/._label.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/__MACOSX/Maps/._label_mask.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/__MACOSX/Maps/._tapa.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/jnw07caoj30g-tbfful99u7sw-Coca-Cola/__MACOSX/Maps/._tapamask copy copy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/mitsuba-sphere.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/mitsuba-sphere.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/mitsuba.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/mitsuba.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/カーテン シンプル-002-4.dae" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/カーテン シンプル-002-4.dae.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF2.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BSDF2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BSDF2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SampleShader/SampleBRDF1.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SampleShader/SampleBRDF1.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SampleShader/SampleBRDF2.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SampleShader/SampleShader1.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/SampleShader/SampleShader1.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Custom_Shader_Glass.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Custom_Shader_Glass.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Shader_Glass.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Shader/Shader_Glass.shader.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BRDF.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/BRDF.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BSDF2.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF2.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BTDF.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/BTDF.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BRDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BRDF.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BSDF2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BSDF2.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BTDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BTDF.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SampleShader/SampleBRDF1.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SampleShader/SampleBRDF1.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Test/Custom_SurfaceShader.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Test/Custom_SurfaceShader.mat" afterDir="false" />
     </list>
@@ -73,10 +26,8 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.22/NoiseController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/SS/Desktop/研究勉強/Shader_Test/Assets/MainStudy/BTDF.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Sketch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/SS/Desktop/研究勉強/Shader_Test/Assets/MainStudy/BTDF.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.29/PostEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect_b.cs" root0="FORCE_HIGHLIGHTING" />
@@ -127,8 +78,8 @@
         <option value="$PROJECT_DIR$/Assets/Shader/Shader_Glass01.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BRDF.shader" />
         <option value="$PROJECT_DIR$/Assets/SampleShader/SampleBRDF2.shader" />
-        <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF2.shader" />
         <option value="$PROJECT_DIR$/Assets/SampleShader/SampleBRDF1.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF2.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BTDF.shader" />
       </list>
     </option>
@@ -263,6 +214,11 @@
       <workItem from="1639405036742" duration="1977000" />
       <workItem from="1639457016288" duration="1811000" />
       <workItem from="1639494082582" duration="9015000" />
+      <workItem from="1639560860904" duration="4338000" />
+      <workItem from="1639643542401" duration="3694000" />
+      <workItem from="1639813376349" duration="3072000" />
+      <workItem from="1639850721639" duration="1604000" />
+      <workItem from="1639984962410" duration="3514000" />
     </task>
     <servers />
   </component>
@@ -306,10 +262,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1179" y="345" key="#通知/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1634549517613" />
-    <state x="-7" y="0" width="975" height="1047" key="DiffContextDialog" timestamp="1639503692292">
+    <state x="953" y="0" width="974" height="1047" key="DiffContextDialog" timestamp="1639666486570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="-7" y="0" width="975" height="1047" key="DiffContextDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1639503692292" />
+    <state x="953" y="0" width="974" height="1047" key="DiffContextDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1639666486570" />
     <state x="748" y="230" key="RollbackChangesDialog" timestamp="1639495136453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -318,7 +274,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="937" y="165" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637837837850" />
-    <state x="937" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1630946919091" />
     <state x="1053" y="100" width="774" height="847" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1637661643012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
