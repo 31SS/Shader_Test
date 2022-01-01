@@ -6,14 +6,132 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BRDF.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BRDF.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BRDF2.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BRDF3.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF2.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF2.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BTDF.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BTDF.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BTDF2.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BTDF2.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/CookTorrance.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/CookTorrance.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Custom_CookTorrance.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Custom_CookTorrance.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Example.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Example2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Example2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Example2.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/GGX2.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/GGX2.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/GeometrySchlick.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/GeometrySchlick.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/NDF.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/NDF.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/NDF2.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/NDF2.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BRDF.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BRDF.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BSDF.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BSDF.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BSDF2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BSDF2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BTDF.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BTDF.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BTDF2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BTDF2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_GGX2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_GGX2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_GeometrySchlick.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_GeometrySchlick.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_NDF.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_NDF.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_NDF2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_NDF2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/BumpMapShader.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/BumpMapShader.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/Custom_BumpMap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/Custom_BumpMap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/Custom_NewSurfaceShader.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/Custom_NewSurfaceShader.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/Custom_bumpMapShader.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/Custom_bumpMapShader.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/MyBumpMap.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/MyBumpMap.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/Unlit_MyBumpMap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/Unlit_MyBumpMap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/VisualizeTangentSpace.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TestShader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TestShader/Custom_SurfaceShader.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TestShader/Custom_SurfaceShader.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TestShader/SurfaceShader.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TestShader/SurfaceShader.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TestShader/UnlitShader.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TestShader/UnlitShader.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TestShader/Unlit_UnlitShader.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TestShader/Unlit_UnlitShader.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/オレンジの果皮.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/オレンジの果皮.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/オレンジの果皮_Normal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/オレンジの果皮_Normal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/オレンジの果皮_Normal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/オレンジの果皮_Normal.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BSDF2.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF2.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BTDF.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/BTDF.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BSDF2.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BSDF2.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BTDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BTDF.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SampleShader/SampleBRDF1.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SampleShader/SampleBRDF1.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BRDF.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BRDF.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BSDF.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BSDF.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BSDF2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BSDF2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BTDF.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BTDF.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/CookTorrance.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/CookTorrance.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Custom_CookTorrance.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Custom_CookTorrance.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/GGX2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/GGX2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/GeometrySchlick.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/GeometrySchlick.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/NDF.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/NDF.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/NDF2.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/NDF2.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BRDF.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BRDF.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BSDF.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BSDF.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BSDF2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BSDF2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BTDF.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_BTDF.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_GGX2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_GGX2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_GeometrySchlick.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_GeometrySchlick.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_NDF.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_NDF.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_NDF2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Unlit_NDF2.mat.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Test/Custom_SurfaceShader.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Test/Custom_SurfaceShader.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Custom_ShaderSketch.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Shader/Custom_ShaderSketch.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Test.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Test/Custom_SurfaceShader.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Test/Custom_SurfaceShader.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Test/SurfaceShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Test/SurfaceShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Test/UnlitShader.shader" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Test/UnlitShader.shader.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Test/Unlit_UnlitShader.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Test/Unlit_UnlitShader.mat.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +146,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.22/NoiseController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Sketch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MainStudy/BumpMapping/VisualizeTangentSpace.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.29/PostEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect_b.cs" root0="FORCE_HIGHLIGHTING" />
@@ -35,14 +154,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.25/depth.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.26/Block.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.26/Unitychan.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.27/SimpleLambert.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.29/monoTone.shader" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.29/PostEffect.cs" />
-        <option value="$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect2.cs" />
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect_b.cs" />
         <option value="$PROJECT_DIR$/Assets/StudyShader/No.30/wipeCircle.shader" />
@@ -74,13 +185,26 @@
         <option value="$PROJECT_DIR$/Assets/BRDF/BRDF.shader" />
         <option value="$PROJECT_DIR$/Assets/BRDF/BSDF.shader" />
         <option value="$PROJECT_DIR$/Assets/BRDF/BTDF.shader" />
-        <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/Shader_Glass01.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BRDF.shader" />
         <option value="$PROJECT_DIR$/Assets/SampleShader/SampleBRDF2.shader" />
         <option value="$PROJECT_DIR$/Assets/SampleShader/SampleBRDF1.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF2.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BTDF.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BTDF2.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BumpMapShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/BumpMapShader.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/MyBumpMap.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/VisualizeTangentSpace.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BTDF3.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BTDF2.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BTDF.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BRDF3.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BRDF2.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/Example.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/Example2.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BRDF.shader" />
       </list>
     </option>
   </component>
@@ -107,7 +231,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Assets/SampleShader/SampleBRDF2.shader" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Assets/MainStudy/BSDF/Example2.shader" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
@@ -219,6 +343,14 @@
       <workItem from="1639813376349" duration="3072000" />
       <workItem from="1639850721639" duration="1604000" />
       <workItem from="1639984962410" duration="3514000" />
+      <workItem from="1640018786754" duration="435000" />
+      <workItem from="1640273705426" duration="14000" />
+      <workItem from="1640501101097" duration="1654000" />
+      <workItem from="1640608198998" duration="596000" />
+      <workItem from="1640675886186" duration="8561000" />
+      <workItem from="1640766653186" duration="2391000" />
+      <workItem from="1640941757558" duration="5425000" />
+      <workItem from="1641025381788" duration="17693000" />
     </task>
     <servers />
   </component>
@@ -262,10 +394,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1179" y="345" key="#通知/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1634549517613" />
-    <state x="953" y="0" width="974" height="1047" key="DiffContextDialog" timestamp="1639666486570">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="-1344" y="-23" width="974" height="1047" maximized="true" key="DiffContextDialog" timestamp="1641056267580">
+      <screen x="-1920" y="3" width="1920" height="1040" />
     </state>
     <state x="953" y="0" width="974" height="1047" key="DiffContextDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1639666486570" />
+    <state x="-1344" y="-23" width="974" height="1047" maximized="true" key="DiffContextDialog/-1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1641056267580" />
     <state x="748" y="230" key="RollbackChangesDialog" timestamp="1639495136453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -278,10 +411,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1053" y="100" width="774" height="847" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637661643012" />
-    <state x="-7" y="0" width="974" height="1047" key="dock-window-1" timestamp="1637935839285">
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1641054080198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-7" y="0" width="974" height="1047" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637935839285" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/-1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1641054080198" />
     <state x="-7" y="0" width="974" height="1047" key="dock-window-2" timestamp="1638169665267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

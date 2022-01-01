@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Unlit_BSDF
-  m_Shader: {fileID: 4800000, guid: 6b09719f2f87a254f97928882ba1046f, type: 3}
+  m_Name: Unlit_BTDF2
+  m_Shader: {fileID: 4800000, guid: 67cf87565eb96ff488e8a1b5233a3831, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -20,16 +20,17 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8cafbbf4bfb772d47a3396b161c8e3a0, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _D_Roughness: 0.1
+    - _D_Roughness: 0.48
     - _F0: 0.02
-    - _G_Roughness: 0.1
+    - _G_Roughness: 0.5
     - _Glossiness: 0.5
-    - _a_i: 1.24
-    - _a_o: 2
+    - _R_i: 1
+    - _R_o: 1.5
+    - _Roughness: 0.1
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

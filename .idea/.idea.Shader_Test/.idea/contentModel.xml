@@ -20,19 +20,31 @@
           </e>
         </e>
         <e p="MainStudy" t="Include">
-          <e p="BRDF.shader" t="Include" />
-          <e p="BSDF.shader" t="Include" />
-          <e p="BSDF2.shader" t="Include" />
-          <e p="BTDF.shader" t="Include" />
-          <e p="CookTorrance.shader" t="Include" />
+          <e p="BSDF" t="Include">
+            <e p="BRDF.shader" t="Include" />
+            <e p="BRDF2.shader" t="Include" />
+            <e p="BRDF3.shader" t="Include" />
+            <e p="BSDF.shader" t="Include" />
+            <e p="BSDF2.shader" t="Include" />
+            <e p="BTDF.shader" t="Include" />
+            <e p="BTDF2.shader" t="Include" />
+            <e p="CookTorrance.shader" t="Include" />
+            <e p="Example.shader" t="Include" />
+            <e p="Example2.shader" t="Include" />
+            <e p="GeometrySchlick.shader" t="Include" />
+            <e p="GGX2.shader" t="Include" />
+            <e p="NDF.shader" t="Include" />
+            <e p="NDF2.shader" t="Include" />
+          </e>
+          <e p="BumpMapping" t="Include">
+            <e p="BumpMapShader.shader" t="Include" />
+            <e p="MyBumpMap.shader" t="Include" />
+            <e p="VisualizeTangentSpace.cs" t="Include" />
+          </e>
           <e p="Fresnel" t="Include">
             <e p="Fresnel.shader" t="Include" />
             <e p="FresnelReflection.shader" t="Include" />
           </e>
-          <e p="GeometrySchlick.shader" t="Include" />
-          <e p="GGX2.shader" t="Include" />
-          <e p="NDF.shader" t="Include" />
-          <e p="NDF2.shader" t="Include" />
         </e>
         <e p="SampleScenes" t="Include">
           <e p="Menu" t="Include">
@@ -182,7 +194,7 @@
             <e p="water.shader" t="Include" />
           </e>
         </e>
-        <e p="Test" t="Include">
+        <e p="TestShader" t="Include">
           <e p="SurfaceShader.shader" t="Include" />
           <e p="UnlitShader.shader" t="Include" />
         </e>

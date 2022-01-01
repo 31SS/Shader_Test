@@ -2,12 +2,12 @@ Shader "Unlit/BRDF"
 {
     Properties
     {
+        _Roughness("Roughness", Range(0.0, 1.0)) = 0.5
         _MainTex ("Texture", 2D) = "white" {}
-        _Color ("Diffuse Color", Color) = (1, 1, 1, 1)
-        _Glossiness ("Smoothness", Range(0,1)) = 0.5
         _D_Roughness ("D_Roughness", Range(0.0, 1.0)) = 0.1
         _G_Roughness ("G_Roughness", Range(0.0, 1.0)) = 0.1
-         _F0 ("Fresnel Reflection Coefficient", Range(0.0, 1.0)) = 0.02
+        _F0 ("Fresnel Reflection Coefficient", Range(0.0, 1.0)) = 0.02
+        _Ambient ("Ambient Color (RGB)", Color) = (0, 0, 0, 0)
     }
     SubShader
     {
@@ -16,18 +16,22 @@ Shader "Unlit/BRDF"
 
         Pass
         {
+            // SH求めるのに必要
+            Tags{ "LightMode" = "ForwardBase" }
+            
             CGPROGRAM
             #pragma vertex vert
             #pragma fragment frag
-            #pragma multi_compile_fog
 
             #include "UnityCG.cginc"
+            #include "UnityStandardUtils.cginc"
             #include "Lighting.cginc"
 
-            uniform float4 _Color;
+            float _Roughness;
             half _D_Roughness;
             half _G_Roughness;
             half _F0;
+            half4 _Ambient;
             
             struct appdata
             {
@@ -38,14 +42,16 @@ Shader "Unlit/BRDF"
 
             struct v2f
             {
-                float2 uv : TEXCOORD0;
-                float3 normal : TEXCOORD1;
-                float4 vpos :TEXCOORD4;
-                UNITY_FOG_COORDS(1)
                 float4 pos : SV_POSITION;
-                float4 color : COLOR;
+                half2 uv : TEXCOORD0;
+                float3 normal : TEXCOORD1;
+                float4 worldPos :TEXCOORD2;
+                half3 viewDir : TEXCOORD3;
+                half4 ambient : TEXCOORD4;
             };
-            
+                        
+            sampler2D _MainTex;
+            float4 _MainTex_ST;
            
             // <summary>
             // 正規分布関数
@@ -88,7 +94,7 @@ Shader "Unlit/BRDF"
                 return ggx1 * ggx2;
             }
 
-            			// G - 幾何減衰の項（クック トランスモデル）
+            // G - 幾何減衰の項（クック トランスモデル）
 			float G_CookTorrance(float3 L, float3 V, float3 H, float3 N) {
 				float NdotH = saturate(dot(N, H));
 				float NdotL = saturate(dot(N, L));
@@ -111,84 +117,71 @@ Shader "Unlit/BRDF"
                 return F;
             }
 
-            // float Flesnel(float3 V, float H, float _F0)
-            // {
-            //     float VdotH = saturate(dot(V, H));
-            //     float F0 = saturate(_F0);
-            //     float F = pow(1.0 - VdotH, 5.0);
-            //     F *= (1.0 - F0);
-            //     F += F0;
-            //     return F;
-            // }
-            
-            sampler2D _MainTex;
-            float4 _MainTex_ST;
-
-            //フレネルの式
-            //cosThetaは法線nと視点方向vとの内積
-            // half fresnelSchlick(float cosTheta, half F0, v2f i)
-            // {
-            //     _F0 = lerp(_F0, tex2D(_MainTex, i.uv), 0.5f);
-            //     return F0 + (1.0 - F0) * pow(1.0 - cosTheta, 5.0);
-            //    // half fresnel = _F0 + (1.0h - _F0) * pow(1.0h - i.vdotn, 5);
-            //    //  return fresnel;
-            // }
+            float BRDF(float3 N, float3 L, float3 V, float3 H)
+            {
+                float NdotL = saturate(dot(N, L));
+                float NdotV = saturate(dot(N, V));
+                //法線分布関数
+                float3 D = distributionGGX(N, H);
+                //幾何減衰
+                float3 G = GeometrySmith(N, V, L, _G_Roughness);
+                //フレネルの式
+                float3 F = Flesnel(V, H, _F0);                
+                return (D * G * F) / (4.0 * NdotL * NdotV + 0.000001);
+            }
 
             v2f vert (appdata v)
             {
                 v2f o;
                 o.pos = UnityObjectToClipPos(v.vertex);
-
                 // ワールド空間での法線を計算
                 o.normal = normalize(mul(unity_ObjectToWorld, float4(v.normal, 0.0)).xyz);
-
                 // 該当ピクセルのライティングに、ワールド空間上での位置を保持しておく
-                o.vpos = mul(unity_ObjectToWorld, v.vertex);
-
-                o.color = _Color;
-
+                o.worldPos = mul(unity_ObjectToWorld, v.vertex);
+                o.ambient = 1;
+                // SH
+                o.ambient.rgb = ShadeSHPerVertex(o.normal, o.ambient.rgb);
                 return o;
             }
 
             fixed4 frag (v2f i) : SV_Target
             {
-                float3 ambientLight = unity_AmbientEquator.xyz * i.color;
+                half3 albedo = tex2D(_MainTex, i.uv).rgb;
+                half perceptualRoughness = _Roughness;
+                float3 ambientLight = unity_AmbientEquator.xyz;
                 
                 float3 lightDirectionNormal = normalize(_WorldSpaceLightPos0.xyz);
-                float NdotL = saturate(dot(i.normal, lightDirectionNormal));
                 // ワールド空間上の視点（カメラ）位置と法線との内積を計算
-                float3 viewDirectionNormal = normalize((float4(_WorldSpaceCameraPos, 1.0) - i.vpos).xyz);
-                float NdotV = saturate(dot(i.normal, viewDirectionNormal));
+                float3 viewDirectionNormal = normalize((float4(_WorldSpaceCameraPos, 1.0) - i.worldPos).xyz);
                 // ライトと視点ベクトルのハーフベクトルを計算
                 float3 halfVector = normalize(lightDirectionNormal + viewDirectionNormal);
 
-
+                float NdotV = saturate(dot(i.normal, viewDirectionNormal));
+                float NdotL = saturate(dot(i.normal, lightDirectionNormal));
                 
+                float3 brdf = BRDF(i.normal, lightDirectionNormal, viewDirectionNormal, halfVector);
 
-                // D_GGXの項
-                float3 D = distributionGGX(i.normal, halfVector);
+                //
+                // Indirect Diffuse
+                half3 indirectDiffuse = ShadeSHPerPixel(i.normal, i.ambient, i.worldPos);                
+                // roughnessに対応する鏡面反射のミップマップレベルを求める
+                half3 reflDir = reflect(-i.viewDir, i.normal);
+                half mip = perceptualRoughness * (1.7 - 0.7 * perceptualRoughness);
+                // 間接光の鏡面反射（リフレクションプローブのブレンドとかは考慮しない）
+                mip *= UNITY_SPECCUBE_LOD_STEPS;
+                half4 rgbm = UNITY_SAMPLE_TEXCUBE_LOD(unity_SpecCube0, reflDir, mip);
+                half3 indirectSpecular = DecodeHDR(rgbm, unity_SpecCube0_HDR);
+                // Indirect Specular
+                float alpha = perceptualRoughness * perceptualRoughness;
+                half surfaceReduction = 1.0 / (alpha * alpha + 1.0);
+                half f90 = saturate((1 - perceptualRoughness) + 1.0);
+                float3 specular = surfaceReduction * indirectSpecular * lerp(_F0, f90, pow(1 - NdotV, 5));
+                //
 
-                float3 G = GeometrySmith(i.normal, viewDirectionNormal, lightDirectionNormal, _G_Roughness);
-                // float G = G_CookTorrance(lightDirectionNormal, viewDirectionNormal, halfVector, i.normal);
-
-                float3 F = Flesnel(viewDirectionNormal, halfVector, _F0);
-
-                // float cookTransModel = (D * G * F) / (4 * NdotL * NdotV + 0.000001);
-
-                float3 cookTransModel = (D * G * F) / (4.0 * NdotL * NdotV + 0.000001);
-
-                float3 diffuseReflection = _LightColor0.xyz * tex2D(_MainTex, i.normal).rgb * NdotL;
-
-                float4 color = tex2D(_MainTex, i.uv);
+                float3 diffuseReflection =  tex2D(_MainTex, i.normal).rgb * (NdotL * 0.5 + 0.5) * _LightColor0;
 
                 // 最後に色を合算して出力
-                return float4(ambientLight + cookTransModel + diffuseReflection, 1.0);
-
-                // return tex2D(_MainTex, i.uv) * cookTransModel * diffuseReflection;
-
-                // return tex2D(_MainTex, i.uv) * cookTransModel;
-
-                // return cookTransModel;
+                return float4(brdf + diffuseReflection, 1.0);
             }
             ENDCG
         }

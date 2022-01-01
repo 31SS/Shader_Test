@@ -1,4 +1,4 @@
-Shader "Unlit/BTDF"
+Shader "Unlit/BSDF2"
 {
     Properties
     {
@@ -10,17 +10,11 @@ Shader "Unlit/BTDF"
         _F0 ("Fresnel Reflection Coefficient", Range(0.0, 1.0)) = 0.02
         _R_i ("η_i", Range(0.0, 2.0)) = 1.0
         _R_o ("η_o", Range(0.0, 2.0)) = 1.5
-        _Roughness ("_Roughness", Range(0.0, 1.0)) = 0.1
     }
     SubShader
     {
-        Tags { "RenderType"="Opaque" "Lightmode" = "ForwardBase"}
+        Tags { "RenderType"="Opaque" }
         LOD 100
-//        Tags { "RenderType"="Transparent" "Queue" = "Transparent" }
-//        Blend DstColor Zero
-//        ZTest LEqual
-//        ZWrite On
-//        LOD 100
 
         Pass
         {
@@ -31,7 +25,6 @@ Shader "Unlit/BTDF"
 
             #include "UnityCG.cginc"
             #include "Lighting.cginc"
-            #include "UnityStandardUtils.cginc"
 
             uniform float4 _Color;
             half _D_Roughness;
@@ -39,7 +32,6 @@ Shader "Unlit/BTDF"
             half _F0;
             half _R_i;
             half _R_o;
-            half _Roughness;
             
             struct appdata
             {
@@ -50,12 +42,11 @@ Shader "Unlit/BTDF"
 
             struct v2f
             {
-                float4 pos : SV_POSITION;
                 float2 uv : TEXCOORD0;
                 float3 normal : TEXCOORD1;
-                float4 worldPos : TEXCOORD2;
-                float4 viewDir : TEXCOORD3;
-                float4 ambient : TEXCOORD4;
+                float4 vpos :TEXCOORD4;
+                UNITY_FOG_COORDS(1)
+                float4 pos : SV_POSITION;
                 float4 color : COLOR;
             };
             
@@ -83,7 +74,7 @@ Shader "Unlit/BTDF"
             }
 
             //ジオメトリ関数
-            //Nは法線、Vは視線ベクトル、Lは入射光の逆ベクトル、kは法線
+            //Nは法線、Vは視線ベクトル、Lは入射光の逆ベクトル、kは滑らかさ
             float3 GeometrySchlickGGX(float3 NdotV, float3 k)
             {
                 float nom = NdotV;
@@ -95,9 +86,7 @@ Shader "Unlit/BTDF"
                 float k = pow(Roughness + 1.0f, 2) / 8.0f;
                 
                 float NdotV = max(dot(N, V), 0.0);
-                // float NdotV = saturate(dot(N, V));
                 float NdotL = max(dot(N, L), 0.0);
-                // float NdotL = saturate(dot(N, V));
                 float ggx1 = GeometrySchlickGGX(NdotV, k);
                 float ggx2 = GeometrySchlickGGX(NdotL, k);
                 return ggx1 * ggx2;
@@ -110,7 +99,7 @@ Shader "Unlit/BTDF"
 				float NdotV = saturate(dot(N, V));
 				float VdotH = saturate(dot(V, H));
 
-			    float NH2 = 5.0 * NdotH;
+			    float NH2 = 2.0 * NdotH;
 			    float g1 = (NH2 * NdotV) / VdotH;
 			    float g2 = (NH2 * NdotL) / VdotH;
 			    float G = min(1.0, min(g1, g2));
@@ -160,15 +149,10 @@ Shader "Unlit/BTDF"
                 o.pos = UnityObjectToClipPos(v.vertex);
 
                 // ワールド空間での法線を計算
-                // o.normal = normalize(mul(unity_ObjectToWorld, float4(v.normal, 0.0)).xyz);
+                o.normal = normalize(mul(unity_ObjectToWorld, float4(v.normal, 0.0)).xyz);
 
-                o.normal = UnityObjectToWorldNormal(v.normal);
                 // 該当ピクセルのライティングに、ワールド空間上での位置を保持しておく
-                o.worldPos = mul(unity_ObjectToWorld, v.vertex);
-
-                // o.ambient.rgb = tex2D(_MainTex, o.normal);
-                o.ambient.rgb = 0;
-                o.ambient.rgb = ShadeSHPerVertex(o.normal, o.ambient.rgb);
+                o.vpos = mul(unity_ObjectToWorld, v.vertex);
 
                 o.color = _Color;
 
@@ -177,17 +161,14 @@ Shader "Unlit/BTDF"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                float perceptualRoughness = _Roughness;
-                
                 //環境光とテクスチャの乗算
                 // float3 ambientLight = unity_AmbientEquator.xyz * tex2D(_MainTex, i.normal).rgb;
-                float3 ambientLight = unity_AmbientEquator.xyz  * i.color;
-                float3 albedo = tex2D(_MainTex, i.uv) * _Color;
+                float3 ambientLight = unity_AmbientEquator.xyz * i.color;
                 
                 float3 lightDirectionNormal = normalize(_WorldSpaceLightPos0.xyz);
-                float3 NdotL = InnerProduct(i.normal, lightDirectionNormal);
+                float NdotL = InnerProduct(i.normal, lightDirectionNormal);
                 // ワールド空間上の視点（カメラ）位置と法線との内積を計算
-                float3 viewDirectionNormal = normalize((float4(_WorldSpaceCameraPos, 1.0) - i.worldPos).xyz);
+                float3 viewDirectionNormal = normalize((float4(_WorldSpaceCameraPos, 1.0) - i.vpos).xyz);
                 float3 NdotV = InnerProduct(i.normal, viewDirectionNormal);
                 // ライトと視点ベクトルのハーフベクトルを計算
                 float3 halfVector = normalize(lightDirectionNormal + viewDirectionNormal);
@@ -196,38 +177,30 @@ Shader "Unlit/BTDF"
 
                 float3 HdotL = InnerProduct(halfVector, lightDirectionNormal);
 
-                // Indirect Diffuse
-                half3 indirectDiffuse = ShadeSHPerPixel(i.normal, i.ambient, i.worldPos);
-                // roughnessに対応する鏡面反射のミップマップレベルを求める
-                float3 reflDir = reflect(-i.viewDir, i.normal);
-                half mip = perceptualRoughness * (1.7 - 0.7 * perceptualRoughness);
 
-                mip *= UNITY_SPECCUBE_LOD_STEPS;
-                half4 rgbm = UNITY_SAMPLE_TEXCUBE_LOD(unity_SpecCube0, reflDir, mip);
-                half3 indirectSpecular = DecodeHDR(rgbm, unity_SpecCube0_HDR);
                 
 
                 // D_GGXの項
                 float3 D = distributionGGX(i.normal, halfVector);
+
                 float3 G = GeometrySmith(i.normal, viewDirectionNormal, lightDirectionNormal, _G_Roughness);
                 // float G = G_CookTorrance(lightDirectionNormal, viewDirectionNormal, halfVector, i.normal);
-                float3 F = Flesnel(viewDirectionNormal, halfVector, _F0);
-                
-                float3 cookTransModel = (D * G * F) / (4.0 * NdotL * NdotV + 0.000001);
 
-                // float3 BTDF = ((HdotL * HdotV) / (NdotL * NdotV)) * ((pow(_R_o, 2) * D * G * (1 - F)) / pow((_R_i * HdotV + _R_o * HdotL), 2));
+                float3 F = Flesnel(viewDirectionNormal, halfVector, _F0);
+
+                float3 BRDF = (D * G * F) / (4.0 * NdotL * NdotV + 0.000001);;
                 
-                float3 leftItem = (HdotL * HdotV) / ( NdotV);
-                float3 rightItem = (pow(_R_o, 2) * D * G * (1 - F)) / pow((_R_i * HdotL+ _R_o * HdotV), 2);
+                float3 leftItem = (HdotL * HdotV) / (NdotL * NdotV);
+                float3 rightItem = (pow(_R_o, 2) * D * G * (1 - F)) / pow((_R_i * HdotV + _R_o * HdotL), 10);
                 float3 BTDF = leftItem * rightItem;
+
+                float3 BSDF = BRDF + BTDF;
                 
-                float3 diffuseReflection = _LightColor0.xyz * tex2D(_MainTex, i.normal).rgb * NdotL;                
+                float3 diffuseReflection = _LightColor0.xyz * tex2D(_MainTex, i.normal).rgb * NdotL;
 
                 // 最後に色を合算して出力
-                // return float4(ambientLight + BTDF + diffuseReflection, 1.0);
+                return float4(ambientLight + BSDF + diffuseReflection, 1.0);
 
-                // return float4(indirectDiffuse + indirectSpecular + BTDF + ambientLight, 1.0);
-                 return float4(diffuseReflection + BTDF + ambientLight, 1.0);
                 // return tex2D(_MainTex, i.uv) * cookTransModel * diffuseReflection;
 
                 // return tex2D(_MainTex, i.uv) * cookTransModel;
