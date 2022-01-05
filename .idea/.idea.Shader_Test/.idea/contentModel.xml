@@ -10,6 +10,9 @@
           <e p="Bubble.shader" t="Include" />
           <e p="PerlinNoise.cginc" t="Include" />
         </e>
+        <e p="BuiltInShader" t="Include">
+          <e p="Normal-Bumped.shader" t="Include" />
+        </e>
         <e p="Crystal Shader" t="Include">
           <e p="Crystal Shader.shader" t="Include" />
           <e p="LICENSE.txt" t="Include" />
@@ -26,8 +29,10 @@
             <e p="BRDF3.shader" t="Include" />
             <e p="BSDF.shader" t="Include" />
             <e p="BSDF2.shader" t="Include" />
+            <e p="BSDF3.shader" t="Include" />
             <e p="BTDF.shader" t="Include" />
             <e p="BTDF2.shader" t="Include" />
+            <e p="BTDF3.shader" t="Include" />
             <e p="CookTorrance.shader" t="Include" />
             <e p="Example.shader" t="Include" />
             <e p="Example2.shader" t="Include" />
@@ -37,9 +42,14 @@
             <e p="NDF2.shader" t="Include" />
           </e>
           <e p="BumpMapping" t="Include">
+            <e p="BumpMap2.shader" t="Include" />
+            <e p="BumpMap3.shader" t="Include" />
             <e p="BumpMapShader.shader" t="Include" />
             <e p="MyBumpMap.shader" t="Include" />
             <e p="VisualizeTangentSpace.cs" t="Include" />
+          </e>
+          <e p="Combination" t="Include">
+            <e p="BRDF+BumpMap.shader" t="Include" />
           </e>
           <e p="Fresnel" t="Include">
             <e p="Fresnel.shader" t="Include" />

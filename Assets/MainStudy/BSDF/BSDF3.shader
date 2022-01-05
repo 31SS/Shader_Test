@@ -1,4 +1,4 @@
-Shader "Unlit/BRDF3"
+Shader "Unlit/BSDF"
 {
     Properties
     {
@@ -7,8 +7,9 @@ Shader "Unlit/BRDF3"
         _Glossiness ("Smoothness", Range(0,1)) = 0.5
         _D_Roughness ("D_Roughness", Range(0.0, 1.0)) = 0.1
         _G_Roughness ("G_Roughness", Range(0.0, 1.0)) = 0.1
-         _F0 ("Fresnel Reflection Coefficient", Range(0.0, 1.0)) = 0.02
-        _BumpMap ("Bump map", 2D) = "bump" {}
+        _F0 ("Fresnel Reflection Coefficient", Range(0.0, 1.0)) = 0.02
+        _a_i ("η_i", Range(0.0, 2.0)) = 1.0
+        _a_o ("η_o", Range(0.0, 2.0)) = 1.5
     }
     SubShader
     {
@@ -29,26 +30,25 @@ Shader "Unlit/BRDF3"
             half _D_Roughness;
             half _G_Roughness;
             half _F0;
+            half _a_i;
+            half _a_o;
             
             struct appdata
             {
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
                 float3 normal : NORMAL;
-                float4 tangent : TANGENT;
             };
 
             struct v2f
             {
                 float2 uv : TEXCOORD0;
                 float3 normal : TEXCOORD1;
-                float4 vpos :TEXCOORD2;
-                float3 lightDir : TEXCOORD3;
+                float4 vpos :TEXCOORD4;
+                UNITY_FOG_COORDS(1)
                 float4 pos : SV_POSITION;
-                float4 color : COLOR;
             };
             
-           
             // <summary>
             // 正規分布関数
             // <summary>
@@ -124,24 +124,17 @@ Shader "Unlit/BRDF3"
             // }
             
             sampler2D _MainTex;
-            sampler2D _BumpMap;
-            // fixed4 _Color;
             float4 _MainTex_ST;
 
-            // 接空間へ変換する行列を生成する
-            // ※ 接空間からローカル空間への変換の逆行列で、ローカルのライトを接空間に変換する
-            float4x4 InvTangentMatrix(float3 tan, float3 bin, float3 nor)
-            {
-                float4x4 mat = float4x4(
-                    float4(tan, 0),
-                    float4(bin, 0),
-                    float4(nor, 0),
-                    float4(0, 0, 0, 1)
-                );
-
-                // 正規直交系行列なので、逆行列は転置行列で求まる
-                return transpose(mat);
-            }
+            //フレネルの式
+            //cosThetaは法線nと視点方向vとの内積
+            // half fresnelSchlick(float cosTheta, half F0, v2f i)
+            // {
+            //     _F0 = lerp(_F0, tex2D(_MainTex, i.uv), 0.5f);
+            //     return F0 + (1.0 - F0) * pow(1.0 - cosTheta, 5.0);
+            //    // half fresnel = _F0 + (1.0h - _F0) * pow(1.0h - i.vdotn, 5);
+            //    //  return fresnel;
+            // }
 
             v2f vert (appdata v)
             {
@@ -150,29 +143,17 @@ Shader "Unlit/BRDF3"
 
                 // ワールド空間での法線を計算
                 o.normal = normalize(mul(unity_ObjectToWorld, float4(v.normal, 0.0)).xyz);
-                o.uv = v.uv.xy;
 
                 // 該当ピクセルのライティングに、ワールド空間上での位置を保持しておく
                 o.vpos = mul(unity_ObjectToWorld, v.vertex);
-                o.color = _Color;
-
-                 // ローカル空間上での接空間ベクトルの方向を求める
-                float3 n = normalize(v.normal);
-                float3 t = v.tangent;
-                float3 b = cross(n, t);
-
-                // ワールド位置にあるライトをローカル空間へ変換する
-                float3 localLight = mul(unity_WorldToObject, _WorldSpaceLightPos0);
-
-                // ローカルライトを接空間へ変換する（行列の掛ける順番に注意）
-                o.lightDir = mul(localLight, InvTangentMatrix(t, b, n));
 
                 return o;
             }
 
             fixed4 frag (v2f i) : SV_Target
             {
-                float3 normal = float4(UnpackNormal(tex2D(_BumpMap, i.uv)), 1);
+                float3 ambientLight = unity_AmbientEquator.xyz;
+                
                 float3 lightDirectionNormal = normalize(_WorldSpaceLightPos0.xyz);
                 float NdotL = saturate(dot(i.normal, lightDirectionNormal));
                 // ワールド空間上の視点（カメラ）位置と法線との内積を計算
@@ -180,30 +161,32 @@ Shader "Unlit/BRDF3"
                 float NdotV = saturate(dot(i.normal, viewDirectionNormal));
                 // ライトと視点ベクトルのハーフベクトルを計算
                 float3 halfVector = normalize(lightDirectionNormal + viewDirectionNormal);
-                
+
+                float HdotV = saturate(dot(halfVector, viewDirectionNormal));
+
+                float HdotL = saturate(dot(halfVector, lightDirectionNormal));                
+
                 // D_GGXの項
-                float3 D = distributionGGX(normal, halfVector);
-                float3 G = GeometrySmith(normal, viewDirectionNormal, lightDirectionNormal, _G_Roughness);
+                float3 D = distributionGGX(i.normal, halfVector);
+
+                float3 G = GeometrySmith(i.normal, viewDirectionNormal, lightDirectionNormal, _G_Roughness);
                 // float G = G_CookTorrance(lightDirectionNormal, viewDirectionNormal, halfVector, i.normal);
+
                 float3 F = Flesnel(viewDirectionNormal, halfVector, _F0);
 
-                // float cookTransModel = (D * G * F) / (4 * NdotL * NdotV + 0.000001);
+                // float3 cookTransModel = (D * G * F) / (4.0 * NdotL * NdotV + 0.000001);
 
-                float3 cookTransModel = (D * G * F) / (4.0 * NdotL * NdotV + 0.000001);
+                float3 BRDF = (D * G * F) / (4.0 * NdotL * NdotV + 0.000001);
 
+                float3 BTDF = ((HdotL * HdotV) / (NdotL * NdotV)) * ((pow(_a_i, 2) * D * G * (1 - F)) / pow((_a_i * HdotV + _a_o * HdotL), 2));
 
-                float3 light = normalize(i.lightDir);
-                float diff = max(0, dot(normal, light));
-
-                float3 ambientLight = unity_AmbientEquator.xyz * i.color * diff;
-                float3 diffuseReflection = _LightColor0.xyz * tex2D(_MainTex, i.normal).rgb;
+                float3 diffuseReflection = _LightColor0.xyz * tex2D(_MainTex, i.normal).xyz * NdotL;
 
                 float4 color = tex2D(_MainTex, i.uv);
 
                 // 最後に色を合算して出力
-                // return float4(ambientLight + cookTransModel + diffuseReflection, 1.0);
+                return float4(ambientLight + BRDF + BTDF + diffuseReflection, 1.0);
 
-                return diff * tex2D(_MainTex, i.normal);
                 // return tex2D(_MainTex, i.uv) * cookTransModel * diffuseReflection;
 
                 // return tex2D(_MainTex, i.uv) * cookTransModel;

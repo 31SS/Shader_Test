@@ -24,10 +24,13 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _D_Roughness: 0.1
-    - _F0: 0.02
-    - _G_Roughness: 0.1
+    - _D_Roughness: 0.38
+    - _F0: 0.51
+    - _G_Roughness: 0.41
     - _Glossiness: 0.5
+    - _R_i: 0.83
+    - _R_o: 1.59
+    - _Roughness: 0.1
     - _a_i: 1.0003
     - _a_o: 2
     m_Colors:

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Custom_bumpMapShader
-  m_Shader: {fileID: 4800000, guid: 6b4878648f755854ebb7484dd40678eb, type: 3}
+  m_Name: BSDF3
+  m_Shader: {fileID: 4800000, guid: 7c24d096c559cbf4da880f2cdcf13e13, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,17 +19,17 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 27c90e91e3f6f0b4c941ef830f762a73, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 8cafbbf4bfb772d47a3396b161c8e3a0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _D_Roughness: 0.1
+    - _F0: 0.02
+    - _G_Roughness: 0.1
     - _Glossiness: 0.5
-    - _Metallic: 0
+    - _a_i: 1
+    - _a_o: 1.5
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
