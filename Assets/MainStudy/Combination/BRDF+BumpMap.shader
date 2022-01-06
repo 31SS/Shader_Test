@@ -1,4 +1,4 @@
-Shader "Unlit/BRDF+BampMap"
+Shader "Unlit/BRDF+BumpMap"
 {
     Properties
     {

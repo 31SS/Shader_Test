@@ -6,39 +6,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/みかん.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/みかん.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/BuiltInShader/Normal-Bumped.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/BuiltInShader/Normal-Bumped.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF3.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BTDF3.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/BumpMap2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/BumpMap2.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/BumpMap2.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/BumpMap3.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/BumpMap3.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/BumpMap3.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BRDF+BumpMap.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BRDF+BumpMap.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/Unlit_BRDF+BampMap.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/Unlit_BRDF+BampMap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3DModel/りんご.obj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/3DModel/りんご.obj.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap2.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap2.shader.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/Unlit_BSDF+BumpMap2.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/Unlit_BSDF+BumpMap2.mat.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BRDF.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BRDF.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BRDF3.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BRDF3.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BTDF.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BTDF.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BRDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BRDF.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BTDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BTDF.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/Custom_bumpMapShader.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/Custom_bumpMapShader.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/MyBumpMap.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/MyBumpMap.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/Unlit_MyBumpMap.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/Unlit_MyBumpMap.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Texture/オレンジの果皮.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Texture/オレンジの果皮.jpg.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Texture/オレンジの果皮_Normal.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Texture/オレンジの果皮_Normal.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Combination/BRDF+BumpMap.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BRDF+BumpMap.shader" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,22 +31,17 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.5.7/Editor/Collaborate/UserInterface/CollaborateWindow.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.22/NoiseController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/SS/Desktop/研究勉強/Shader_Test/Assets/MainStudy/BSDF/BRDF3.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shader/Sketch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MainStudy/BumpMapping/VisualizeTangentSpace.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/CGIncludes/HLSLSupport.cginc" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/SS/Desktop/研究勉強/Shader_Test/Assets/MainStudy/BSDF/BRDF.shader" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/SS/Desktop/研究勉強/Shader_Test/Assets/MainStudy/BSDF/BSDF.shader" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.29/PostEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect_b.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/WaterFall/Shader_Waterfall_01.shader" />
-        <option value="$PROJECT_DIR$/Assets/WaterFall/Shader_Waterfall.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/Sketch.cs" />
         <option value="$PROJECT_DIR$/Assets/Bubble/Bubble.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/ShaderSketch.shader" />
@@ -107,15 +82,17 @@
         <option value="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/BumpMapShader.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/MyBumpMap.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/BumpMap3.shader" />
-        <option value="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/BumpMap2.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BRDF3.shader" />
-        <option value="$PROJECT_DIR$/Assets/MainStudy/Combination/BRDF+BumpMap.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BTDF3.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BRDF.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF3.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BTDF.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/NewBehaviourScript.cs" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/Combination/BRDF+BumpMap.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/BumpMap2.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap2.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap.shader" />
       </list>
     </option>
   </component>
@@ -266,6 +243,7 @@
       <workItem from="1641190576079" duration="3850000" />
       <workItem from="1641287549373" duration="1505000" />
       <workItem from="1641361877910" duration="10294000" />
+      <workItem from="1641484226748" duration="5766000" />
     </task>
     <servers />
   </component>
@@ -326,11 +304,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1053" y="100" width="774" height="847" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637661643012" />
-    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1641200623796">
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1641485812057">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="-7" y="0" width="974" height="1047" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1637935839285" />
-    <state x="953" y="0" width="974" height="1047" key="dock-window-1/-1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1641200623796" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/-1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1641485812057" />
     <state x="157" y="0" width="930" height="1026" key="dock-window-2" timestamp="1641141532142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
