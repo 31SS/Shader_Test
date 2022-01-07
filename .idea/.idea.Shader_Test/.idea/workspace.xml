@@ -6,19 +6,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/りんご.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/りんご.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap2.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap2.shader.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/Unlit_BSDF+BumpMap2.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/Unlit_BSDF+BumpMap2.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap3.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/林檎皮　シームレス.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Texture/林檎皮　シームレス.jpg.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Combination/BRDF+BumpMap.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BRDF+BumpMap.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BSDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/BSDF/Unlit_BSDF.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Combination/Unlit_BRDF+BampMap.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Combination/Unlit_BRDF+BampMap.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestShader/Custom_SurfaceShader.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestShader/Custom_SurfaceShader.mat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Shader/Sketch.cs" />
         <option value="$PROJECT_DIR$/Assets/Bubble/Bubble.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/ShaderSketch.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/ShaderSketch2.shader" />
@@ -88,11 +87,12 @@
         <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF3.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BTDF.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/NewBehaviourScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF.shader" />
-        <option value="$PROJECT_DIR$/Assets/MainStudy/Combination/BRDF+BumpMap.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BumpMapping/BumpMap2.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/Combination/BRDF+BumpMap.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap2.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap3.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/BSDF.shader" />
       </list>
     </option>
   </component>
@@ -244,6 +244,8 @@
       <workItem from="1641287549373" duration="1505000" />
       <workItem from="1641361877910" duration="10294000" />
       <workItem from="1641484226748" duration="5766000" />
+      <workItem from="1641542834896" duration="894000" />
+      <workItem from="1641567558842" duration="4546000" />
     </task>
     <servers />
   </component>

@@ -52,6 +52,7 @@
             <e p="BRDF+BumpMap.shader" t="Include" />
             <e p="BSDF+BumpMap.shader" t="Include" />
             <e p="BSDF+BumpMap2.shader" t="Include" />
+            <e p="BSDF+BumpMap3.shader" t="Include" />
           </e>
           <e p="Fresnel" t="Include">
             <e p="Fresnel.shader" t="Include" />

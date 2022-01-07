@@ -96,9 +96,9 @@ Shader "BSDF"
             float F_Flesnel(float3 V, float H, float _F0)
             {
                 float VdotH = InnerProduct(V, H);
-                // float F0 = saturate(_F0);
+                float F0 = saturate(_F0);
                 // float F0 = pow((_R_i - _R_o) / (_R_i + _R_o), 2);
-                float F0 = pow((_R_i - _R_o) / (_R_i + _R_o), 2);
+                // float F0 = pow((_R_i - _R_o) / (_R_i + _R_o), 2);
                 float F = F0 + (1.0f - F0) * pow(1.0f - VdotH, 5);
                 return F;
             }

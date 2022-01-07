@@ -1,4 +1,4 @@
-Shader "BSDF+BumpMap"
+Shader "BSDF+BumpMap3"
 {
     Properties
     {
@@ -52,6 +52,8 @@ Shader "BSDF+BumpMap"
                 float4 worldPos :TEXCOORD2;
                 half3 viewDir : TEXCOORD3;
                 half4 lightDir : TEXCOORD4;
+                half3 tangent : TEXCOORD5;
+                half3 binormal : TEXCOORD6;
             };
             
             float3 InnerProduct(float3 x, float3 y)
@@ -153,6 +155,12 @@ Shader "BSDF+BumpMap"
                 TANGENT_SPACE_ROTATION;
                 o.lightDir = normalize(mul(unity_ObjectToWorld, ObjSpaceLightDir(v.vertex)));
                 o.viewDir = normalize(mul(unity_ObjectToWorld, ObjSpaceViewDir(v.vertex)));
+
+                // ワールド <-> 接空間変換行列を作成するため、ワールド空間のnormal, tangent, binormalを求めておく
+                o.binormal = normalize(cross(v.normal, v.tangent) * v.tangent.w);
+                o.normal = UnityObjectToWorldNormal(v.normal);
+                o.tangent = mul(unity_ObjectToWorld, v.tangent.xyz);
+                o.binormal = mul(unity_ObjectToWorld, o.binormal);
                 
                 return o;
             }
@@ -163,7 +171,11 @@ Shader "BSDF+BumpMap"
                 i.viewDir = normalize(i.viewDir);
                 half3 halfDir = normalize(i.lightDir + i.viewDir);
 
+                // 接空間 -> ワールド空間変換行列
+                half3x3 tangentToWorld = transpose(half3x3(i.tangent.xyz, i.binormal, i.normal));
+
                 float3 normal = float4(UnpackNormal(tex2D(_NormalMap, i.uv)), 1);
+                normal = mul(tangentToWorld, normal);
                 
                 float eta = _R_i / _R_o;
                 float3 lightDirectionNormal = normalize(_WorldSpaceLightPos0.xyz);

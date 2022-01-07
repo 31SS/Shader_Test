@@ -28,10 +28,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _D_Roughness: 0.41
-    - _F0: 0.45
-    - _G_Roughness: 0.43
-    - _R_i: 1.03
+    - _D_Roughness: 0.39
+    - _F0: 0.5
+    - _G_Roughness: 0.4
+    - _R_i: 0.86
     - _R_o: 1.5
     - _Shininess: 0.29
     m_Colors: []
