@@ -37,6 +37,7 @@ Shader "BSDF"
                 float4 vertex : POSITION;
                 float2 uv : TEXCOORD0;
                 float3 normal : NORMAL;
+                half2 texcoord : TEXCOORD1;
             };
 
             struct v2f
@@ -138,8 +139,10 @@ Shader "BSDF"
             {
                 v2f o;
                 o.pos = UnityObjectToClipPos(v.vertex);
+                o.uv = TRANSFORM_TEX(v.texcoord, _MainTex);
                 // ワールド空間での法線を計算
-                o.normal = normalize(mul(unity_ObjectToWorld, float4(v.normal, 0.0)).xyz);
+                // o.normal = normalize(mul(unity_ObjectToWorld, float4(v.normal, 0.0)).xyz);
+                o.normal = UnityObjectToWorldNormal(v.normal);
                 // 該当ピクセルのライティングに、ワールド空間上での位置を保持しておく
                 o.worldPos = mul(unity_ObjectToWorld, v.vertex);
                 return o;
@@ -163,7 +166,7 @@ Shader "BSDF"
                 float3 brdf = BRDF(i.normal, lightDirectionNormal, viewDirectionNormal, halfVector_R);                
                 float3 btdf = BTDF(i.normal, lightDirectionNormal, viewDirectionNormal, halfVector_T, refractedLightVector);
 
-                float3 diffuseReflection =  tex2D(_MainTex, i.normal).rgb * NdotL * _LightColor0;
+                float3 diffuseReflection =  tex2D(_MainTex, i.uv).rgb * NdotL * _LightColor0;
 
                 // 最後に色を合算して出力
                 return float4(brdf + btdf + diffuseReflection, 1.0);
