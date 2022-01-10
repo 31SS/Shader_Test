@@ -40,6 +40,7 @@
             <e p="GGX2.shader" t="Include" />
             <e p="NDF.shader" t="Include" />
             <e p="NDF2.shader" t="Include" />
+            <e p="NoBSDF.shader" t="Include" />
           </e>
           <e p="BumpMapping" t="Include">
             <e p="BumpMap2.shader" t="Include" />
@@ -57,6 +58,9 @@
           <e p="Fresnel" t="Include">
             <e p="Fresnel.shader" t="Include" />
             <e p="FresnelReflection.shader" t="Include" />
+          </e>
+          <e p="Others" t="Include">
+            <e p="PeduncleShader.shader" t="Include" />
           </e>
         </e>
         <e p="SampleScenes" t="Include">
