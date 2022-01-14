@@ -1,4 +1,4 @@
-Shader "BSDF"
+Shader "BSDF+BumpMap"
 {
     Properties
     {
@@ -8,6 +8,7 @@ Shader "BSDF"
         _F0 ("Fresnel Reflection Coefficient", Range(0.0, 1.0)) = 0.02
         _R_i ("η_i", Range(0.0, 2.0)) = 1.0003
         _R_o ("η_o", Range(0.0, 2.0)) = 1.3509
+        _NormalMap ("Normal map", 2D) = "bump" {}
     }
     SubShader
     {
@@ -31,6 +32,7 @@ Shader "BSDF"
             half _R_o;
             sampler2D _MainTex;
             float4 _MainTex_ST;
+            sampler2D _NormalMap;
             
             struct appdata
             {
@@ -38,6 +40,7 @@ Shader "BSDF"
                 float2 uv : TEXCOORD0;
                 float3 normal : NORMAL;
                 half2 texcoord : TEXCOORD1;
+                float4 tangent : TANGENT;
             };
 
             struct v2f
@@ -120,7 +123,7 @@ Shader "BSDF"
             float BTDF(float3 N, float3 L, float3 V, float3 H, float3 R)
             {
                 float NdotL = pow(0.5f * InnerProduct(N, L) + 0.5f, 2);
-                float NdotV = abs(InnerProduct(N, V));
+                float NdotV = pow(0.5f * InnerProduct(N, V) + 0.5f, 2);
                 float3 HdotV = abs(InnerProduct(H, V));
                 float3 HdotL = abs(InnerProduct(H, L));
                 //法線分布関数
@@ -144,12 +147,14 @@ Shader "BSDF"
                 o.normal = UnityObjectToWorldNormal(v.normal);
                 // 該当ピクセルのライティングに、ワールド空間上での位置を保持しておく
                 o.worldPos = mul(unity_ObjectToWorld, v.vertex);
+                TANGENT_SPACE_ROTATION;
                 return o;
             }
 
             fixed4 frag (v2f i) : SV_Target
             {
                 float eta = _R_i / _R_o;
+                float3 normal = float4(UnpackNormal(tex2D(_NormalMap, i.uv)), 1);
                 float3 lightDirectionNormal = normalize(_WorldSpaceLightPos0.xyz);
                 // ワールド空間上の視点（カメラ）位置
                 float3 viewDirectionNormal = normalize((float4(_WorldSpaceCameraPos, 1.0) - i.worldPos).xyz);
@@ -162,8 +167,8 @@ Shader "BSDF"
                 // ハーフランバート用の内積
                 float NdotL = pow(0.5f * InnerProduct(i.normal, lightDirectionNormal) + 0.5f, 2);
 
-                float3 brdf = BRDF(i.normal, lightDirectionNormal, viewDirectionNormal, halfVector_R);                
-                float3 btdf = BTDF(i.normal, lightDirectionNormal, viewDirectionNormal, halfVector_T, refractedLightVector);
+                float3 brdf = BRDF(normal, lightDirectionNormal, viewDirectionNormal, halfVector_R);                
+                float3 btdf = BTDF(normal, lightDirectionNormal, viewDirectionNormal, halfVector_T, refractedLightVector);
 
                 float3 diffuseReflection =  tex2D(_MainTex, i.uv).rgb * NdotL * _LightColor0;
 

@@ -27,7 +27,6 @@
             <e p="BRDF.shader" t="Include" />
             <e p="BRDF2.shader" t="Include" />
             <e p="BRDF3.shader" t="Include" />
-            <e p="BSDF.shader" t="Include" />
             <e p="BSDF2.shader" t="Include" />
             <e p="BSDF3.shader" t="Include" />
             <e p="BTDF.shader" t="Include" />
@@ -40,7 +39,6 @@
             <e p="GGX2.shader" t="Include" />
             <e p="NDF.shader" t="Include" />
             <e p="NDF2.shader" t="Include" />
-            <e p="NoBSDF.shader" t="Include" />
           </e>
           <e p="BumpMapping" t="Include">
             <e p="BumpMap2.shader" t="Include" />
@@ -54,6 +52,11 @@
             <e p="BSDF+BumpMap.shader" t="Include" />
             <e p="BSDF+BumpMap2.shader" t="Include" />
             <e p="BSDF+BumpMap3.shader" t="Include" />
+          </e>
+          <e p="Experiment" t="Include">
+            <e p="BSDF+BumpMap.shader" t="Include" />
+            <e p="BSDF.shader" t="Include" />
+            <e p="NoBSDF.shader" t="Include" />
           </e>
           <e p="Fresnel" t="Include">
             <e p="Fresnel.shader" t="Include" />
