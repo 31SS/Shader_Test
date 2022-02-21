@@ -6,26 +6,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/みかん 1.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/3DModel/みかん 1.obj.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF+BumpMap.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF+BumpMap.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF+BumpMap.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/みかん　皮　シームレス.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/みかん　皮　シームレス.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/みかん　皮　シームレス　バンプマップ.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/Materials/みかん　皮　シームレス　バンプマップ.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/みかん　皮　シームレス.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/みかん　皮　シームレス.jpg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/みかん　皮　シームレス　バンプマップ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Texture/みかん　皮　シームレス　バンプマップ.jpg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/みかん.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/みかん.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/りんご.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/りんご.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/りんご_BSDF.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/りんご_BSDF.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/りんご_NoBSDF.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/りんご_NoBSDF.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ExperimenceScene.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ExperimenceScene.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/FrameTimeUI.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Experiment/NoBSDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/NoBSDF.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF+BumpMap.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF+BumpMap.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Experiment/Unlit_BSDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/Unlit_BSDF.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Texture/オレンジの果皮_Normal.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Texture/オレンジの果皮_Normal.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +42,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/MainStudy/BumpMapping/VisualizeTangentSpace.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/CGIncludes/HLSLSupport.cginc" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Script/FrameTimeUI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.29/PostEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect_b.cs" root0="FORCE_HIGHLIGHTING" />
@@ -49,9 +50,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Shader/ShaderSketch4.shader" />
-        <option value="$PROJECT_DIR$/Assets/Test/UnlitShader.shader" />
-        <option value="$PROJECT_DIR$/Assets/Shader/MyLambert.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/MyPhong.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/FresnelReflection.shader" />
         <option value="$PROJECT_DIR$/Assets/Fresnel/Fresnel2.shader" />
@@ -100,6 +98,9 @@
         <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/NoBSDF.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF+BumpMap.shader" />
+        <option value="$PROJECT_DIR$/Assets/Script/LineUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/FrameTiming.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/FrameTimeUI.cs" />
       </list>
     </option>
   </component>
@@ -257,6 +258,9 @@
       <workItem from="1641798473437" duration="1510000" />
       <workItem from="1642088565616" duration="2309000" />
       <workItem from="1642139833338" duration="4327000" />
+      <workItem from="1642239660954" duration="1010000" />
+      <workItem from="1642346908554" duration="749000" />
+      <workItem from="1645465557974" duration="1740000" />
     </task>
     <servers />
   </component>

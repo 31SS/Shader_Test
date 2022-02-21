@@ -88,6 +88,11 @@
           <e p="SampleBRDF1.shader" t="Include" />
           <e p="SampleBRDF2.shader" t="Include" />
         </e>
+        <e p="Script" t="Include">
+          <e p="FrameTimeUI.cs" t="Include" />
+          <e p="FrameTimie.cs" t="Include" />
+          <e p="LineUp.cs" t="Include" />
+        </e>
         <e p="Shader" t="Include">
           <e p="My Shader.shader" t="Include" />
           <e p="MyLambert.shader" t="Include" />

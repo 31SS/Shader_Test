@@ -123,7 +123,7 @@ Shader "BSDF+BumpMap"
             float BTDF(float3 N, float3 L, float3 V, float3 H, float3 R)
             {
                 float NdotL = pow(0.5f * InnerProduct(N, L) + 0.5f, 2);
-                float NdotV = pow(0.5f * InnerProduct(N, V) + 0.5f, 2);
+                float NdotV = pow(0.2f * InnerProduct(N, V)  + 0.5f, 2);
                 float3 HdotV = abs(InnerProduct(H, V));
                 float3 HdotL = abs(InnerProduct(H, L));
                 //法線分布関数
