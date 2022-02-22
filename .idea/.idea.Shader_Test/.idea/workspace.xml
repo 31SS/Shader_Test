@@ -6,26 +6,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/みかん.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/みかん.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/りんご.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/りんご.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/りんご_BSDF.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/りんご_BSDF.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/りんご_NoBSDF.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/りんご_NoBSDF.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ExperimenceScene.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scenes/ExperimenceScene.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/FrameTimeUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/みかん_BSDF.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/みかん_BSDF.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/みかん_NoBSDF.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefab/みかん_NoBSDF.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/FpsDisplay.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Script/FpsDisplay.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF+BumpMap.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF+BumpMap.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Experiment/Unlit_BSDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/Unlit_BSDF.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Experiment/Unlit_BSDF.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Experiment/Unlit_BSDF.mat.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Shader/MyPhong.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/FresnelReflection.shader" />
         <option value="$PROJECT_DIR$/Assets/Fresnel/Fresnel2.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/BRDF.shader" />
@@ -101,6 +92,7 @@
         <option value="$PROJECT_DIR$/Assets/Script/LineUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/FrameTiming.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/FrameTimeUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/FpsDisplay.cs" />
       </list>
     </option>
   </component>
@@ -261,6 +253,7 @@
       <workItem from="1642239660954" duration="1010000" />
       <workItem from="1642346908554" duration="749000" />
       <workItem from="1645465557974" duration="1740000" />
+      <workItem from="1645521578771" duration="2406000" />
     </task>
     <servers />
   </component>
