@@ -6,18 +6,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="777737dc-29e5-4f57-951d-921185248a4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/みかん_BSDF.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/みかん_BSDF.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/みかん_NoBSDF.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefab/みかん_NoBSDF.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/FpsDisplay.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Script/FpsDisplay.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Shader_Test/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Experiment/Unlit_BSDF.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Experiment/Unlit_BSDF.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF+BumpMap.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF+BumpMap.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Experiment/NoBSDF.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/NoBSDF.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MainStudy/Experiment/NoBSDF.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MainStudy/Experiment/NoBSDF.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ExperimenceScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ExperimenceScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/StudyScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/FpsDisplay.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/FpsDisplay.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/FrameTimeUI.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/FrameTimeUI.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/FrameTimie.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/FrameTimie.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Script/LineUp.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Script/LineUp.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Xソードマン.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/Xソードマン.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/カリバー.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Shader/カリバー.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/MainStudy/BumpMapping/VisualizeTangentSpace.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/CGIncludes/HLSLSupport.cginc" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.25/DispDepth.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Script/FrameTimeUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../Program Files/Unity/Hub/Editor/2020.3.12f1/Editor/Data/CGIncludes/UnityShaderVariables.cginc" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.21/PointController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.29/PostEffect.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/StudyShader/No.30/PostEffect_b.cs" root0="FORCE_HIGHLIGHTING" />
@@ -42,7 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Shader/FresnelReflection.shader" />
         <option value="$PROJECT_DIR$/Assets/Fresnel/Fresnel2.shader" />
         <option value="$PROJECT_DIR$/Assets/Shader/BRDF.shader" />
         <option value="$PROJECT_DIR$/Assets/BRDF/GGX2.shader" />
@@ -87,12 +95,13 @@
         <option value="$PROJECT_DIR$/Assets/MainStudy/Combination/BSDF+BumpMap.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/Others/PeduncleShader.shader" />
         <option value="$PROJECT_DIR$/Assets/MainStudy/BSDF/NoBSDF.shader" />
-        <option value="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF.shader" />
-        <option value="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF+BumpMap.shader" />
-        <option value="$PROJECT_DIR$/Assets/Script/LineUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/FrameTiming.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/FrameTimeUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Script/FpsDisplay.cs" />
+        <option value="$PROJECT_DIR$/Assets/Script/LineUp.cs" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/Experiment/NoBSDF.shader" />
+        <option value="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF+BumpMap.shader" />
       </list>
     </option>
   </component>
@@ -119,7 +128,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Assets/MainStudy/Experiment/BSDF+BumpMap.shader" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/Assets/MainStudy/Experiment/NoBSDF.shader" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
@@ -254,6 +263,11 @@
       <workItem from="1642346908554" duration="749000" />
       <workItem from="1645465557974" duration="1740000" />
       <workItem from="1645521578771" duration="2406000" />
+      <workItem from="1646217724254" duration="56000" />
+      <workItem from="1646218033581" duration="2406000" />
+      <workItem from="1646244343991" duration="21000" />
+      <workItem from="1646244391235" duration="97000" />
+      <workItem from="1646244572247" duration="207000" />
     </task>
     <servers />
   </component>
@@ -289,19 +303,11 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="161" key="#プラグイン" timestamp="1634548340988">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1032" y="161" key="#プラグイン/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1634548340988" />
-    <state x="1179" y="345" key="#通知" timestamp="1634549517613">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1179" y="345" key="#通知/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1634549517613" />
-    <state x="383" y="-20" width="974" height="1047" key="DiffContextDialog" timestamp="1642171726178">
+    <state x="496" y="-17" width="974" height="1040" maximized="true" key="DiffContextDialog" timestamp="1646244029637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="953" y="0" width="974" height="1047" key="DiffContextDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1639666486570" />
-    <state x="383" y="-20" width="974" height="1047" key="DiffContextDialog/-1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1642171726178" />
+    <state x="496" y="-17" width="974" height="1040" maximized="true" key="DiffContextDialog/-1920.3.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1646244029637" />
     <state x="748" y="230" key="RollbackChangesDialog" timestamp="1639495136453">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -52,7 +52,8 @@ Shader "BSDF+BumpMap"
                 half3 viewDir : TEXCOORD3;
                 half4 ambient : TEXCOORD4;
             };
-            
+
+            //内積
             float3 InnerProduct(float3 x, float3 y)
             {
                 return saturate(dot(x, y));
@@ -153,22 +154,23 @@ Shader "BSDF+BumpMap"
 
             fixed4 frag (v2f i) : SV_Target
             {
+                // 入射側と放射側の屈折率の比
                 float eta = _R_i / _R_o;
                 float3 normal = float4(UnpackNormal(tex2D(_NormalMap, i.uv)), 1);
                 float3 lightDirectionNormal = normalize(_WorldSpaceLightPos0.xyz);
                 // ワールド空間上の視点（カメラ）位置
-                float3 viewDirectionNormal = normalize((float4(_WorldSpaceCameraPos, 1.0) - i.worldPos).xyz);
+                float3 viewVector = normalize((float4(_WorldSpaceCameraPos, 1.0) - i.worldPos).xyz);
                 // 屈折光ベクトルを計算
-                float3 refractedLightVector = refract(viewDirectionNormal, i.normal, eta);
+                float3 refractedLightVector = refract(viewVector, i.normal, eta);
                 // ライトと視点ベクトルのハーフベクトルを計算
-                float3 halfVector_R = normalize(lightDirectionNormal + viewDirectionNormal);
+                float3 halfVector_R = normalize(lightDirectionNormal + viewVector);
                 float3 halfVector_T = normalize(lightDirectionNormal + refractedLightVector);
 
                 // ハーフランバート用の内積
                 float NdotL = pow(0.5f * InnerProduct(i.normal, lightDirectionNormal) + 0.5f, 2);
 
-                float3 brdf = BRDF(normal, lightDirectionNormal, viewDirectionNormal, halfVector_R);                
-                float3 btdf = BTDF(normal, lightDirectionNormal, viewDirectionNormal, halfVector_T, refractedLightVector);
+                float3 brdf = BRDF(normal, lightDirectionNormal, viewVector, halfVector_R);                
+                float3 btdf = BTDF(normal, lightDirectionNormal, viewVector, halfVector_T, refractedLightVector);
 
                 float3 diffuseReflection =  tex2D(_MainTex, i.uv).rgb * NdotL * _LightColor0;
 
